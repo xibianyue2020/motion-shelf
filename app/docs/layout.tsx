@@ -47,10 +47,12 @@ function NavigationDesktop() {
                         <li key={child.href} ref={isActive ? activeRef : null}>
                           <Link
                             className={cn(
-                              'relative inline-flex items-center pl-4 text-sm font-normal text-zinc-700 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white',
-                              isActive && 'text-zinc-950'
+                              'relative isolate inline-flex w-full items-center rounded-md py-1.5 pr-2 pl-4 text-sm font-normal text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 dark:text-zinc-400 dark:hover:bg-zinc-900 dark:hover:text-white',
+                              isActive &&
+                                'bg-zinc-100 font-medium text-zinc-950 dark:bg-zinc-900 dark:text-white'
                             )}
                             href={child.href}
+                            aria-current={isActive ? 'page' : undefined}
                             prefetch={false}
                           >
                             {isActive && (
