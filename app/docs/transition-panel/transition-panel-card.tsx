@@ -125,7 +125,7 @@ export function TransitionPanelCard() {
       <div className='flex justify-between p-4'>
         {activeIndex > 0 ? (
           <Button onClick={() => handleSetActiveIndex(activeIndex - 1)}>
-            Previous
+            上一个
           </Button>
         ) : (
           <div />

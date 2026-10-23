@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Disclosure - Motion-Primitives',
-  description:
-    'The Disclosure component allows users to toggle the visibility of content, either collapsed or expanded. Built for React, Next.js, and Tailwind CSS.',
+  title: '折叠面板 - Motion Shelf',
+  description: '点击后展开内容的交互卡片。',
 };
 
 import { DisclosureBasic } from './disclosure-basic';
@@ -9,23 +8,21 @@ import { DisclosureCard } from './disclosure-card';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 import CodeBlock from '@/components/website/code-block';
 
-# Disclosure
+# 折叠面板
 
-The Disclosure component allows users to toggle the visibility of content, either collapsed or expanded.
+点击后展开内容的交互卡片。
 
-## Examples
+## 示例
 
-### Basic Disclosure
-
+### 基础折叠面板
 <ComponentCodePreview
   component={<DisclosureBasic />}
   filePath='app/docs/disclosure/disclosure-basic.tsx'
   classNameComponentContainer='min-h-0 py-24 lg:px-32 px-8'
 />
 
-### Disclosure with custom animation
-
-Image from Les others studio
+### 自定义展开动画
+图片来源：Les Others Studio。
 
 <ComponentCodePreview
   component={<DisclosureCard />}
@@ -33,13 +30,13 @@ Image from Les others studio
   classNameComponentContainer='min-h-0 py-24 lg:px-32 px-8'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -52,11 +49,11 @@ Image from Les others studio
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/disclosure.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -64,9 +61,9 @@ Image from Les others studio
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### Disclosure
+### 折叠面板组件（`Disclosure`）
 
 | Prop         | Type                                        | Default | Description                                                                                |
 | ------------ | ------------------------------------------- | ------- | ------------------------------------------------------------------------------------------ |
@@ -77,14 +74,14 @@ Image from Les others studio
 | variants     | `{ expanded: Variant; collapsed: Variant }` |         | Custom animation variants for expanded and collapsed states.                               |
 | transition   | `Transition`                                |         | Custom transition settings for the motion animations.                                      |
 
-### DisclosureTrigger
+### 折叠面板触发器（`DisclosureTrigger`）
 
 | Prop      | Type      | Default | Description                                          |
 | --------- | --------- | ------- | ---------------------------------------------------- |
 | children  | ReactNode |         | The trigger element that will toggle the disclosure. |
 | className | string    |         | Additional CSS classes for the trigger element.      |
 
-### DisclosureContent
+### 折叠面板内容（`DisclosureContent`）
 
 | Prop      | Type      | Default | Description                                                 |
 | --------- | --------- | ------- | ----------------------------------------------------------- |

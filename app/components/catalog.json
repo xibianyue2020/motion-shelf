@@ -1,13 +1,14 @@
 [
   {
     "id": "accordion",
-    "name": "Accordion",
+    "name": "手风琴",
     "category": "基础组件",
     "description": "可展开与收起的内容面板，带平滑过渡动画。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Accordion"
     ],
     "demos": [
       {
@@ -32,13 +33,14 @@
   },
   {
     "id": "animated-background",
-    "name": "Animated Background",
+    "name": "动态背景",
     "category": "基础组件",
     "description": "在多个选项之间切换时，提供连续流畅的背景动效。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Animated Background"
     ],
     "demos": [
       {
@@ -67,13 +69,14 @@
   },
   {
     "id": "animated-group",
-    "name": "Animated Group",
+    "name": "分组入场动效",
     "category": "基础组件",
     "description": "为一组子元素编排进入、离开和交错动画。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Animated Group"
     ],
     "demos": [
       {
@@ -98,13 +101,14 @@
   },
   {
     "id": "border-trail",
-    "name": "Border Trail",
+    "name": "边框流光",
     "category": "基础组件",
     "description": "沿容器边框循环移动的光迹效果。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Border Trail"
     ],
     "demos": [
       {
@@ -129,13 +133,14 @@
   },
   {
     "id": "carousel",
-    "name": "Carousel",
+    "name": "内容轮播",
     "category": "基础组件",
     "description": "支持拖动与惯性滚动的内容轮播组件。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Carousel"
     ],
     "demos": [
       {
@@ -164,13 +169,14 @@
   },
   {
     "id": "cursor",
-    "name": "Cursor",
+    "name": "跟随光标",
     "category": "基础组件",
     "description": "可跟随指针并附着于目标元素的自定义光标。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Cursor"
     ],
     "demos": [
       {
@@ -195,13 +201,14 @@
   },
   {
     "id": "dialog",
-    "name": "Dialog",
+    "name": "弹窗",
     "category": "基础组件",
     "description": "具有共享布局过渡效果的弹窗组件。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Dialog"
     ],
     "demos": [
       {
@@ -235,13 +242,14 @@
   },
   {
     "id": "disclosure",
-    "name": "Disclosure",
+    "name": "折叠面板",
     "category": "基础组件",
     "description": "点击后展开内容的交互卡片。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Disclosure"
     ],
     "demos": [
       {
@@ -262,13 +270,14 @@
   },
   {
     "id": "in-view",
-    "name": "In View",
+    "name": "入场显现",
     "category": "基础组件",
     "description": "元素进入视口时触发的动画容器。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "In View"
     ],
     "demos": [
       {
@@ -293,13 +302,14 @@
   },
   {
     "id": "infinite-slider",
-    "name": "Infinite Slider",
+    "name": "无限轮播",
     "category": "基础组件",
     "description": "连续循环滚动的横向或纵向内容轨道。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Infinite Slider"
     ],
     "demos": [
       {
@@ -325,13 +335,14 @@
   },
   {
     "id": "transition-panel",
-    "name": "Transition Panel",
+    "name": "切换面板",
     "category": "基础组件",
     "description": "在多个面板内容之间进行布局与高度过渡。",
     "tags": [
       "基础组件",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Transition Panel"
     ],
     "demos": [
       {
@@ -352,13 +363,14 @@
   },
   {
     "id": "text-effect",
-    "name": "Text Effect",
+    "name": "文字入场",
     "category": "文字动效",
     "description": "按字符、单词或行呈现的文本入场动画。",
     "tags": [
       "文字动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Text Effect"
     ],
     "demos": [
       {
@@ -403,13 +415,14 @@
   },
   {
     "id": "text-loop",
-    "name": "Text Loop",
+    "name": "文字轮播",
     "category": "文字动效",
     "description": "循环切换短句并带有平滑文字过渡。",
     "tags": [
       "文字动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Text Loop"
     ],
     "demos": [
       {
@@ -434,13 +447,14 @@
   },
   {
     "id": "text-morph",
-    "name": "Text Morph",
+    "name": "文字变形",
     "category": "文字动效",
     "description": "在不同文本内容之间进行字形变形过渡。",
     "tags": [
       "文字动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Text Morph"
     ],
     "demos": [
       {
@@ -461,13 +475,14 @@
   },
   {
     "id": "text-roll",
-    "name": "Text Roll",
+    "name": "文字翻滚",
     "category": "文字动效",
     "description": "以滚动方式逐字或逐段显示文本。",
     "tags": [
       "文字动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Text Roll"
     ],
     "demos": [
       {
@@ -492,13 +507,14 @@
   },
   {
     "id": "text-scramble",
-    "name": "Text Scramble",
+    "name": "文字扰码",
     "category": "文字动效",
     "description": "字符逐步扰动并还原为目标文本。",
     "tags": [
       "文字动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Text Scramble"
     ],
     "demos": [
       {
@@ -523,13 +539,14 @@
   },
   {
     "id": "text-shimmer",
-    "name": "Text Shimmer",
+    "name": "文字流光",
     "category": "文字动效",
     "description": "沿文字表面扫过的渐变闪光效果。",
     "tags": [
       "文字动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Text Shimmer"
     ],
     "demos": [
       {
@@ -550,13 +567,14 @@
   },
   {
     "id": "text-shimmer-wave",
-    "name": "Text Shimmer Wave",
+    "name": "波浪文字流光",
     "category": "文字动效",
     "description": "带有波浪节奏的文字高光动画。",
     "tags": [
       "文字动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Text Shimmer Wave"
     ],
     "demos": [
       {
@@ -577,13 +595,14 @@
   },
   {
     "id": "animated-number",
-    "name": "Animated Number",
+    "name": "数字滚动",
     "category": "数字动效",
     "description": "数字变化时自动滚动并平滑过渡。",
     "tags": [
       "数字动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Animated Number"
     ],
     "demos": [
       {
@@ -608,13 +627,14 @@
   },
   {
     "id": "sliding-number",
-    "name": "Sliding Number",
+    "name": "数字翻牌",
     "category": "数字动效",
     "description": "数字变化时以滚动方式切换数位。",
     "tags": [
       "数字动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Sliding Number"
     ],
     "demos": [
       {
@@ -640,13 +660,14 @@
   },
   {
     "id": "dock",
-    "name": "Dock",
+    "name": "放大坞栏",
     "category": "交互动效",
     "description": "指针靠近时放大图标的灵感坞栏。",
     "tags": [
       "交互动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Dock"
     ],
     "demos": [
       {
@@ -663,13 +684,14 @@
   },
   {
     "id": "glow-effect",
-    "name": "Glow Effect",
+    "name": "动态光晕",
     "category": "交互动效",
     "description": "为卡片和界面元素添加柔和的动态光效。",
     "tags": [
       "交互动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Glow Effect"
     ],
     "demos": [
       {
@@ -694,13 +716,14 @@
   },
   {
     "id": "image-comparison",
-    "name": "Image Comparison",
+    "name": "图片对比",
     "category": "交互动效",
     "description": "拖动分隔线，对比两张叠加图片。",
     "tags": [
       "交互动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Image Comparison"
     ],
     "demos": [
       {
@@ -729,13 +752,14 @@
   },
   {
     "id": "scroll-progress",
-    "name": "Scroll Progress",
+    "name": "滚动进度",
     "category": "交互动效",
     "description": "跟随页面或容器滚动位置变化的进度指示。",
     "tags": [
       "交互动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Scroll Progress"
     ],
     "demos": [
       {
@@ -760,13 +784,14 @@
   },
   {
     "id": "spotlight",
-    "name": "Spotlight",
+    "name": "聚光灯",
     "category": "交互动效",
     "description": "跟随指针移动的聚光照明效果。",
     "tags": [
       "交互动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Spotlight"
     ],
     "demos": [
       {
@@ -791,13 +816,14 @@
   },
   {
     "id": "spinning-text",
-    "name": "Spinning Text",
+    "name": "环绕文字",
     "category": "交互动效",
     "description": "沿圆形路径排布并旋转的文本。",
     "tags": [
       "交互动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Spinning Text"
     ],
     "demos": [
       {
@@ -822,13 +848,14 @@
   },
   {
     "id": "tilt",
-    "name": "Tilt",
+    "name": "3D 倾斜",
     "category": "交互动效",
     "description": "根据指针位置产生透视倾斜与光影反馈。",
     "tags": [
       "交互动效",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Tilt"
     ],
     "demos": [
       {
@@ -849,13 +876,14 @@
   },
   {
     "id": "toolbar-dynamic",
-    "name": "Toolbar Dynamic",
+    "name": "动态工具栏",
     "category": "工具栏",
     "description": "根据选择状态展开操作内容的动态工具栏。",
     "tags": [
       "工具栏",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Toolbar Dynamic"
     ],
     "demos": [
       {
@@ -873,13 +901,14 @@
   },
   {
     "id": "toolbar-expandable",
-    "name": "Toolbar Expandable",
+    "name": "伸缩工具栏",
     "category": "工具栏",
     "description": "可展开或收起的浮动操作工具栏。",
     "tags": [
       "工具栏",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Toolbar Expandable"
     ],
     "demos": [
       {
@@ -898,13 +927,14 @@
   },
   {
     "id": "magnetic",
-    "name": "Magnetic",
+    "name": "磁吸效果",
     "category": "进阶效果",
     "description": "指针靠近时产生磁吸跟随效果的交互元素。",
     "tags": [
       "进阶效果",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Magnetic"
     ],
     "demos": [
       {
@@ -925,13 +955,14 @@
   },
   {
     "id": "morphing-dialog",
-    "name": "Morphing Dialog",
+    "name": "形变弹窗",
     "category": "进阶效果",
     "description": "在触发按钮与弹窗之间自然变形过渡。",
     "tags": [
       "进阶效果",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Morphing Dialog"
     ],
     "demos": [
       {
@@ -957,13 +988,14 @@
   },
   {
     "id": "morphing-popover",
-    "name": "Morphing Popover",
+    "name": "形变浮层",
     "category": "进阶效果",
     "description": "展开时从触发控件平滑变形的浮层。",
     "tags": [
       "进阶效果",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Morphing Popover"
     ],
     "demos": [
       {
@@ -989,13 +1021,14 @@
   },
   {
     "id": "progressive-blur",
-    "name": "Progressive Blur",
+    "name": "渐进模糊",
     "category": "进阶效果",
     "description": "按距离渐进增强的图片模糊效果。",
     "tags": [
       "进阶效果",
       "ui",
-      "motion-primitives"
+      "motion-primitives",
+      "Progressive Blur"
     ],
     "demos": [
       {

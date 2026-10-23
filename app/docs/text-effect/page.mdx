@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Text Effect - Motion-Primitives',
-  description:
-    'Easily animate text content with various effects. You can apply animations per character or per word, and customize the animation effects using custom variants or preset animations. Built for React, Next.js, and Tailwind CSS.',
+  title: '文字入场 - Motion Shelf',
+  description: '按字符、单词或行呈现的文本入场动画。',
 };
 
 import { TextEffectPerChar } from './text-effect-per-char';
@@ -14,71 +13,63 @@ import { TextEffectWithExit } from './text-effect-exit';
 import { TextEffectSpeed } from './text-effect-speed';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Text Effect
+# 文字入场
 
-Easily animate text content with various effects. You can apply animations per character or per word, and customize the animation effects using custom variants or preset animations.
+按字符、单词或行呈现的文本入场动画。
 
-## Examples
+## 示例
 
-### Text Effect per character
-
+### 逐字入场
 <ComponentCodePreview
   component={<TextEffectPerChar />}
   filePath='app/docs/text-effect/text-effect-per-char.tsx'
   hasReTrigger
 />
 
-### Text Effect per word
-
+### 逐词入场
 <ComponentCodePreview
   component={<TextEffectPerWord />}
   filePath='app/docs/text-effect/text-effect-per-word.tsx'
   hasReTrigger
 />
 
-### Text Effect with preset
-
+### 使用预设动效
 <ComponentCodePreview
   component={<TextEffectWithPreset />}
   filePath='app/docs/text-effect/text-effect-preset.tsx'
   hasReTrigger
 />
 
-### Text Effect with custom variants
-
+### 自定义动效变体
 <ComponentCodePreview
   component={<TextEffectWithCustomVariants />}
   filePath='app/docs/text-effect/text-effect-variants.tsx'
   hasReTrigger
 />
 
-### Text Effect with custom delay
-
+### 自定义延迟
 <ComponentCodePreview
   component={<TextEffectWithCustomDelay />}
   filePath='app/docs/text-effect/text-effect-custom-delay.tsx'
   hasReTrigger
 />
 
-### Text Effect per line
-
+### 逐行入场
 <ComponentCodePreview
   component={<TextEffectPerLine />}
   filePath='app/docs/text-effect/text-effect-line.tsx'
   hasReTrigger
 />
 
-### Text Effect with exit animation
-
+### 带退出动画
 <ComponentCodePreview
   component={<TextEffectWithExit />}
   filePath='app/docs/text-effect/text-effect-exit.tsx'
   hasReTrigger
 />
 
-### Text Effect with speed
-
-You can control the speed of the animation by using the `speedReveal` and `speedSegment` props.
+### 自定义动效速度
+可以通过 `speedReveal` 和 `speedSegment` 属性控制动画速度。
 
 <ComponentCodePreview
   component={<TextEffectSpeed />}
@@ -86,13 +77,13 @@ You can control the speed of the animation by using the `speedReveal` and `speed
   hasReTrigger
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -104,11 +95,11 @@ You can control the speed of the animation by using the `speedReveal` and `speed
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/text-effect.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -116,9 +107,9 @@ You can control the speed of the animation by using the `speedReveal` and `speed
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### TextEffect
+### 文字入场组件（`TextEffect`）
 
 | Prop                    | Type                                                        | Default   | Description                                                     |
 | :---------------------- | :---------------------------------------------------------- | :-------- | :-------------------------------------------------------------- |

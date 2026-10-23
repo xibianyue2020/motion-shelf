@@ -35,10 +35,10 @@ export function TextEffectWithCustomDelay() {
           },
         }}
       >
-        Animate your ideas
+        让创意跃然呈现
       </TextEffect>
       <TextEffect per='char' delay={1.5}>
-        with motion-primitives
+        让动效赋予界面生命
       </TextEffect>
       <TextEffect
         per='char'
@@ -46,7 +46,7 @@ export function TextEffectWithCustomDelay() {
         className='pt-12 text-xs'
         preset='blur'
       >
-        (and delay!)
+        （并控制延迟！）
       </TextEffect>
     </div>
   );

@@ -46,7 +46,7 @@ export function TextEffectWithCustomVariants() {
 
   return (
     <TextEffect per='word' variants={fancyVariants}>
-      Animate your ideas with motion-primitives
+      让创意随动效跃然呈现
     </TextEffect>
   );
 }

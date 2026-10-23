@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Transition Panel - Motion-Primitives',
-  description:
-    "Easy way to switch between different pieces of content with enter and exit animations. It's perfect for enhancing user experience in areas such as onboarding card, settings adjustments, or any interactive content that requires a visual transition between states. Built for React, Next.js, and Tailwind CSS.",
+  title: '切换面板 - Motion Shelf',
+  description: '在多个面板内容之间进行布局与高度过渡。',
 };
 
 import { TabsTransitionPanel } from './transition-panel-tabs';
@@ -9,35 +8,33 @@ import { TransitionPanelCard } from './transition-panel-card';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 import CodeBlock from '@/components/website/code-block';
 
-# Transition Panel
+# 切换面板
 
-Easy way to switch between different pieces of content with enter and exit animations. It's perfect for enhancing user experience in areas such as onboarding card, settings adjustments, or any interactive content that requires a visual transition between states.
+在多个面板内容之间进行布局与高度过渡。
 
-## Examples
+## 示例
 
-### Tabs with Transition Panel
-
+### 带过渡面板的标签页
 <ComponentCodePreview
   classNameComponentContainer='p-20'
   component={<TabsTransitionPanel />}
   filePath='app/docs/transition-panel/transition-panel-tabs.tsx'
 />
 
-### Card with Transition Panel
-
+### 带过渡面板的卡片
 <ComponentCodePreview
   classNameComponentContainer='p-4'
   component={<TransitionPanelCard />}
   filePath='app/docs/transition-panel/transition-panel-card.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -50,11 +47,11 @@ Easy way to switch between different pieces of content with enter and exit anima
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/transition-panel.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -62,7 +59,7 @@ Easy way to switch between different pieces of content with enter and exit anima
 
 </Tabs>
 
-## Component API
+## 组件接口
 
 | Prop           | Type                                         | Default | Description                                                                      |
 | :------------- | :------------------------------------------- | :------ | :------------------------------------------------------------------------------- |

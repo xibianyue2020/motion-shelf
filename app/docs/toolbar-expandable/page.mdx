@@ -1,22 +1,21 @@
 export const metadata = {
-  title: 'Toolbar Expandable - Motion-Primitives',
-  description:
-    'Changes height based on content, expanding to display more tools and shrinking to save space. Keeps your screen organized and efficient. Built for React, Next.js, and Tailwind CSS.',
+  title: '伸缩工具栏 - Motion Shelf',
+  description: '可展开或收起的浮动操作工具栏。',
 };
 
 import ToolbarExpandable from '@/components/core/toolbar-expandable';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Toolbar Dynamic
+# 伸缩工具栏
 
-A toolbar that changes its height as needed. It grows to show more content and shrinks to save space, keeping your screen neat.
+工具栏可按需改变高度，展开后显示更多内容，收起时节省空间，让界面保持清爽。
 
 <ComponentCodePreview
   component={<ToolbarExpandable />}
   filePath='components/core/toolbar-expandable.tsx'
 />
 
-**Please add:**
+**请同时添加以下依赖：**
 
 - useClickOutside
 - cn

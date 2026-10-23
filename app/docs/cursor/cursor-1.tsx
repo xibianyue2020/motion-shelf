@@ -51,7 +51,7 @@ export function Cursor1() {
                 className='inline-flex w-full items-center justify-center'
               >
                 <div className='inline-flex items-center text-sm text-white dark:text-black'>
-                  More <PlusIcon className='ml-1 h-4 w-4' />
+                  查看更多 <PlusIcon className='ml-1 h-4 w-4' />
                 </div>
               </motion.div>
             ) : null}

@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Dialog - Motion-Primitives',
-  description:
-    'A window overlaid on either the primary window or another dialog window, rendering the content underneath inert. Customize the dialog with variants and transition. Built for React, Next.js, and Tailwind CSS.',
+  title: '弹窗 - Motion Shelf',
+  description: '具有共享布局过渡效果的弹窗组件。',
 };
 
 import ComponentCodePreview from '@/components/website/component-code-preview';
@@ -11,61 +10,55 @@ import { DialogCustomVariantsTransition } from './dialog-custom-variants-transti
 import { DialogCustomExit } from './dialog-custom-exit';
 import { DialogCustomBackdrop } from './dialog-custom-backdrop';
 
-# Dialog
+# 弹窗
 
-A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.
-Customize the dialog with variants and transition.
+具有共享布局过渡效果的弹窗组件。
 
-## Examples
+## 示例
 
-### Basic Dialog
-
+### 基础弹窗
 <ComponentCodePreview
   component={<DialogBasic />}
   filePath='app/docs/dialog/dialog-basic.tsx'
 />
 
-### Controlled Dialog
-
-You can control the open state of the dialog using the `open` and `onOpenChange` props.
+### 受控弹窗
+可以通过 `open` 和 `onOpenChange` 属性控制弹窗的打开状态。
 
 <ComponentCodePreview
   component={<DialogControlled />}
   filePath='app/docs/dialog/dialog-controlled.tsx'
 />
 
-### Dialog with custom variants and transition
-
+### 自定义变体与过渡弹窗
 <ComponentCodePreview
   component={<DialogCustomVariantsTransition />}
   filePath='app/docs/dialog/dialog-custom-variants-transtion.tsx'
 />
 
-### Dialog with custom exit animation
-
-You can customize the exit animation by providing a custom `exit` variant.
+### 自定义退出动画弹窗
+可以通过自定义 `exit` 变体来调整退出动画。
 
 <ComponentCodePreview
   component={<DialogCustomExit />}
   filePath='app/docs/dialog/dialog-custom-exit.tsx'
 />
 
-### Dialog with custom backdrop
-
-You can customize the backdrop using the `backdrop:` prefix on `DialogContent`, e.g., `backdrop:bg-white/20`.
+### 自定义背景遮罩弹窗
+可以在 `DialogContent` 上使用 `backdrop:` 前缀自定义遮罩，例如 `backdrop:bg-white/20`。
 
 <ComponentCodePreview
   component={<DialogCustomBackdrop />}
   filePath='app/docs/dialog/dialog-custom-backdrop.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -78,11 +71,11 @@ You can customize the backdrop using the `backdrop:` prefix on `DialogContent`, 
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/dialog.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -90,9 +83,9 @@ You can customize the backdrop using the `backdrop:` prefix on `DialogContent`, 
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### Dialog
+### 弹窗组件（`Dialog`）
 
 | Prop         | Type                      | Default  | Description                                                                                                   |
 | :----------- | :------------------------ | :------- | :------------------------------------------------------------------------------------------------------------ |
@@ -104,14 +97,14 @@ You can customize the backdrop using the `backdrop:` prefix on `DialogContent`, 
 | onOpenChange | `(open: boolean) => void` |          | Callback function that is called when the dialog's open state changes.                                        |
 | open         | boolean                   |          | Controlled open state of the dialog.                                                                          |
 
-### DialogTrigger
+### 弹窗触发器（`DialogTrigger`）
 
 | Prop      | Type      | Default  | Description                                           |
 | :-------- | :-------- | :------- | :---------------------------------------------------- |
 | children  | ReactNode | required | The content to be rendered inside the trigger button. |
 | className | string    |          | Optional CSS class for styling the trigger button.    |
 
-### DialogContent
+### 弹窗内容（`DialogContent`）
 
 | Prop      | Type        | Default       | Description                                             |
 | :-------- | :---------- | :------------ | :------------------------------------------------------ |
@@ -119,28 +112,28 @@ You can customize the backdrop using the `backdrop:` prefix on `DialogContent`, 
 | className | string      |               | Optional CSS class for styling the dialog content.      |
 | container | HTMLElement | document.body | Specify a container element to portal the content into. |
 
-### DialogHeader
+### 弹窗标题栏（`DialogHeader`）
 
 | Prop      | Type      | Default  | Description                                          |
 | :-------- | :-------- | :------- | :--------------------------------------------------- |
 | children  | ReactNode | required | The content to be rendered inside the dialog header. |
 | className | string    |          | Optional CSS class for styling the dialog header.    |
 
-### DialogTitle
+### 弹窗标题（`DialogTitle`）
 
 | Prop      | Type      | Default  | Description                                         |
 | :-------- | :-------- | :------- | :-------------------------------------------------- |
 | children  | ReactNode | required | The title content to be rendered inside the dialog. |
 | className | string    |          | Optional CSS class for styling the dialog title.    |
 
-### DialogDescription
+### 弹窗说明（`DialogDescription`）
 
 | Prop      | Type      | Default  | Description                                               |
 | :-------- | :-------- | :------- | :-------------------------------------------------------- |
 | children  | ReactNode | required | The description content to be rendered inside the dialog. |
 | className | string    |          | Optional CSS class for styling the dialog description.    |
 
-### DialogClose
+### 关闭弹窗（`DialogClose`）
 
 | Prop      | Type      | Default | Description                                                                                                  |
 | :-------- | :-------- | :------ | :----------------------------------------------------------------------------------------------------------- |

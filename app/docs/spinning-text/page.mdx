@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Spinning Text - Motion-Primitives',
-  description:
-    'Easily animate text circularly. Customize the animation with variants and transitions. Built for React, Next.js, and Tailwind CSS.',
+  title: '环绕文字 - Motion Shelf',
+  description: '沿圆形路径排布并旋转的文本。',
 };
 
 import { SpinningTextBasic } from './spinning-text-basic';
@@ -9,43 +8,40 @@ import { SpinningTextCustomTransition } from './spinning-text-custom-transition'
 import { SpinningTextCustomVariants } from './spinning-text-custom-variants';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Spinning Text
+# 环绕文字
 
-Easily animate text circularly. Customize the animation with variants and transitions.
+沿圆形路径排布并旋转的文本。
 
-## Examples
+## 示例
 
-### Basic Usage
-
+### 基础用法
 <ComponentCodePreview
   component={<SpinningTextBasic />}
   filePath='app/docs/spinning-text/spinning-text-basic.tsx'
   hasReTrigger
 />
 
-### Custom Transition
-
+### 自定义过渡
 <ComponentCodePreview
   component={<SpinningTextCustomTransition />}
   filePath='app/docs/spinning-text/spinning-text-custom-transition.tsx'
   hasReTrigger
 />
 
-### Custom Variants
-
+### 自定义变体
 <ComponentCodePreview
   component={<SpinningTextCustomVariants />}
   filePath='app/docs/spinning-text/spinning-text-custom-variants.tsx'
   hasReTrigger
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -58,20 +54,20 @@ Easily animate text circularly. Customize the animation with variants and transi
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/spinning-text.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
 </TabsContent>
 
 </Tabs>
-## Component API
+## 组件接口
 
-### SpinningText
+### 环绕文字组件（`SpinningText`）
 
 | Prop       | Type                                         | Default | Description                                             |
 | :--------- | :------------------------------------------- | :------ | :------------------------------------------------------ |
@@ -85,6 +81,6 @@ Easily animate text circularly. Customize the animation with variants and transi
 | transition | `Transition`                                 |         | Custom transition effects for the animation.            |
 | variants   | `{ container?: Variants; item?: Variants; }` |         | Variants for container and item animations.             |
 
-## Credit
+## 致谢
 
-Initiated by @ibtihelbs
+动效方案由 @ibtihelbs 发起。

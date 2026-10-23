@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Animated Group - Motion-Primitives',
-  description: `A wrapper that adds animated transitions to a group of child elements. It's perfect for creating staggered animations for lists, grids, or any collection of components. Built for React, Next.js, and Tailwind CSS.`,
+  title: '分组入场动效 - Motion Shelf',
+  description: '为一组子元素编排进入、离开和交错动画。',
 };
 
 import { AnimatedGroupPreset } from './animated-group-preset';
@@ -9,15 +9,14 @@ import { AnimatedGroupCustomVariants2 } from './animated-group-custom-variants-2
 import ComponentCodePreview from '@/components/website/component-code-preview';
 import CodeBlock from '@/components/website/code-block';
 
-# Animated Group
+# 分组入场动效
 
-A wrapper that adds animated transitions to a group of child elements. It's perfect for creating staggered animations for lists, grids, or any collection of components.
+为一组子元素编排进入、离开和交错动画。
 
-## Examples
+## 示例
 
-### Animated Group with preset
-
-Images are from cosmos - Impressionisme
+### 预设分组入场动效
+示例图片来自 Cosmos：印象主义主题。
 
 <ComponentCodePreview
   component={<AnimatedGroupPreset />}
@@ -25,16 +24,14 @@ Images are from cosmos - Impressionisme
   hasReTrigger
 />
 
-### Animated Group with custom variants
-
+### 自定义分组动效
 <ComponentCodePreview
   component={<AnimatedGroupCustomVariants />}
   filePath='app/docs/animated-group/animated-group-custom-variants.tsx'
   hasReTrigger
 />
 
-### AnimatedGroup with custom variants
-
+### 分组动效：自定义变体
 <ComponentCodePreview
   component={<AnimatedGroupCustomVariants2 />}
   filePath='app/docs/animated-group/animated-group-custom-variants-2.tsx'
@@ -42,13 +39,13 @@ Images are from cosmos - Impressionisme
   classNameComponentContainer='bg-white'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -61,11 +58,11 @@ Images are from cosmos - Impressionisme
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/animated-group.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -73,9 +70,9 @@ Images are from cosmos - Impressionisme
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### AnimatedGroup
+### 分组动效组件（`AnimatedGroup`）
 
 | Prop      | Type                                                      | Default   | Description                                          |
 | :-------- | :-------------------------------------------------------- | :-------- | :--------------------------------------------------- |

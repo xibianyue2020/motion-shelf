@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Text Loop - Motion-Primitives',
-  description:
-    'Text animation that transitions between multiple items, creating an engaging looping effect. Built for React, Next.js, and Tailwind CSS.',
+  title: '文字轮播 - Motion Shelf',
+  description: '循环切换短句并带有平滑文字过渡。',
 };
 
 import { TextLoopBasic } from './text-loop-basic';
@@ -9,31 +8,28 @@ import { TextLoopCustomVariantsTransition } from './text-loop-custom-variants-tr
 import { TextLoopOnIndexChange } from './text-loop-on-index';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Text Loop
+# 文字轮播
 
-Text animation that transitions between multiple items, creating an engaging looping effect
+循环切换短句并带有平滑文字过渡。
 
-## Examples
+## 示例
 
-### Text Loop Basic
-
+### 基础文字轮播
 <ComponentCodePreview
   component={<TextLoopBasic />}
   filePath='app/docs/text-loop/text-loop-basic.tsx'
   classNameComponentContainer='min-h-0 py-12 px-12 justify-start items-start'
 />
 
-### Text Loop with custom variants and transition
-
+### 自定义变体与过渡
 <ComponentCodePreview
   component={<TextLoopCustomVariantsTransition />}
   filePath='app/docs/text-loop/text-loop-custom-variants-transition.tsx'
   classNameComponentContainer='min-h-0 py-12 px-12 justify-start items-start'
 />
 
-### Text Loop with onIndexChange
-
-You can use the `onIndexChange` prop to trigger a callback function when the index changes. In this example, we use it to create alternating animation directions.
+### 索引变化回调
+索引变化时可通过 `onIndexChange` 触发回调；本示例用它交替切换动画方向。
 
 <ComponentCodePreview
   component={<TextLoopOnIndexChange />}
@@ -41,13 +37,13 @@ You can use the `onIndexChange` prop to trigger a callback function when the ind
   classNameComponentContainer='min-h-[124px] py-12 px-12 justify-start items-start'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -60,11 +56,11 @@ You can use the `onIndexChange` prop to trigger a callback function when the ind
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/text-loop.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -72,9 +68,9 @@ You can use the `onIndexChange` prop to trigger a callback function when the ind
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### Text Loop
+### 文字轮播组件（`Text Loop`）
 
 | Prop          | Type                         | Default   | Description                                                     |
 | :------------ | :--------------------------- | :-------- | :-------------------------------------------------------------- |

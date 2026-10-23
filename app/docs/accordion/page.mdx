@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Accordion - Motion-Primitives',
-  description:
-    'A vertically stacked set of collapsible containers allowing users to toggle content visibility. Customize the animation effects with variants and transitions for expanding/collapsing the sections. Built for React, Next.js, and Tailwind CSS.',
+  title: '手风琴 - Motion Shelf',
+  description: '可展开与收起的内容面板，带平滑过渡动画。',
 };
 
 import { AccordionBasic } from './accordion-basic';
@@ -9,24 +8,22 @@ import { AccordionIcons } from './accordion-icons';
 import { AccordionVariant } from './accordion-variant';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Accordion
+# 手风琴
 
-A vertically stacked set of collapsible containers allowing users to toggle content visibility. Customize the animation effects with variants and transitions for expanding/collapsing the sections.
+可展开与收起的内容面板，带平滑过渡动画。
 
-## Examples
+## 示例
 
-### Accordion Basic
-
+### 手风琴基础示例
 <ComponentCodePreview
   classNameComponentContainer='min-h-0 py-24 lg:px-32 px-8'
   component={<AccordionBasic />}
   filePath='app/docs/accordion/accordion-basic.tsx'
 />
 
-### Accordion with icons
-
-You can control transformations on elements inside `AccordionTrigger` using `group-data-[expanded]:....`.
-Here, we apply `-rotate-180` to rotate the icon 180 degrees when its associated section is expanded.
+### 带图标的手风琴
+可以使用 `group-data-[expanded]:...` 控制 `AccordionTrigger` 内部元素的变换。
+此处使用 `-rotate-180`，在对应面板展开时将图标旋转 180 度。
 
 <ComponentCodePreview
   classNameComponentContainer='min-h-0 py-24 lg:px-32 px-8'
@@ -34,21 +31,20 @@ Here, we apply `-rotate-180` to rotate the icon 180 degrees when its associated 
   filePath='app/docs/accordion/accordion-icons.tsx'
 />
 
-### Accordion custom variants
-
+### 手风琴自定义变体
 <ComponentCodePreview
   classNameComponentContainer='min-h-0 py-24 lg:px-32 px-8'
   component={<AccordionVariant />}
   filePath='app/docs/accordion/accordion-variant.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -61,11 +57,11 @@ Here, we apply `-rotate-180` to rotate the icon 180 degrees when its associated 
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/accordion.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -73,9 +69,9 @@ Here, we apply `-rotate-180` to rotate the icon 180 degrees when its associated 
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### Accordion
+### 手风琴组件（`Accordion`）
 
 | Prop          | Type                                        | Default | Description                                             |
 | :------------ | :------------------------------------------ | :------ | :------------------------------------------------------ |
@@ -86,7 +82,7 @@ Here, we apply `-rotate-180` to rotate the icon 180 degrees when its associated 
 | expandedValue | React.Key \| null                           |         | Controlled expanded value.                              |
 | onValueChange | (value: React.Key \| null) => void          |         | Callback function when the expanded value changes.      |
 
-### AccordionItem
+### 手风琴条目（`AccordionItem`）
 
 | Prop      | Type      | Default | Description                                                  |
 | :-------- | :-------- | :------ | :----------------------------------------------------------- |
@@ -94,14 +90,14 @@ Here, we apply `-rotate-180` to rotate the icon 180 degrees when its associated 
 | children  | ReactNode |         | The content elements of the accordion item.                  |
 | className | string    |         | Optional CSS class for styling the accordion item container. |
 
-### AccordionTrigger
+### 手风琴触发器（`AccordionTrigger`）
 
 | Prop      | Type      | Default | Description                                                   |
 | :-------- | :-------- | :------ | :------------------------------------------------------------ |
 | children  | ReactNode |         | Content of the trigger, typically a string or formatted text. |
 | className | string    |         | Optional CSS class for styling the trigger element.           |
 
-### AccordionContent
+### 手风琴内容（`AccordionContent`）
 
 | Prop      | Type      | Default | Description                                                |
 | :-------- | :-------- | :------ | :--------------------------------------------------------- |

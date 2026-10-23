@@ -37,20 +37,20 @@ export function DialogCustomExit() {
   return (
     <Dialog variants={customVariants} transition={customTransition}>
       <DialogTrigger className='bg-zinc-950 px-4 py-2 text-sm text-white hover:bg-zinc-900 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-100'>
-        Join the waitlist
+        加入候补名单
       </DialogTrigger>
       <DialogContent className='w-full max-w-md bg-white p-6 dark:bg-zinc-900'>
         <DialogHeader>
           <DialogTitle className='text-zinc-900 dark:text-white'>
-            Join the waitlist
+            加入候补名单
           </DialogTitle>
           <DialogDescription className='text-zinc-600 dark:text-zinc-400'>
-            Enter your email address to receive updates when we launch.
+            留下邮箱，获取产品上线通知。
           </DialogDescription>
         </DialogHeader>
         <div className='mt-6 flex flex-col space-y-4'>
           <label htmlFor='name' className='sr-only'>
-            Email
+            邮箱
           </label>
           <input
             id='name'
@@ -62,7 +62,7 @@ export function DialogCustomExit() {
             className='inline-flex items-center justify-center self-end rounded-lg bg-black px-4 py-2 text-sm font-medium text-zinc-50 dark:bg-white dark:text-zinc-900'
             type='submit'
           >
-            Join now
+            立即加入
           </button>
         </div>
         <DialogClose />

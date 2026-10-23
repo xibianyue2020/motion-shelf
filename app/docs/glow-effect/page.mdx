@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Glow Effect - Motion-Primitives',
-  description:
-    'A customizable glow effect with animation modes, colors, blur-sm, and transitions. Built for React, Next.js, and Tailwind CSS.',
+  title: '动态光晕 - Motion Shelf',
+  description: '为卡片和界面元素添加柔和的动态光效。',
 };
 
 import { GlowEffectCardBackground } from './glow-effect-card-background';
@@ -9,42 +8,39 @@ import { GlowEffectCardMode } from './glow-effect-card-mode';
 import { GlowEffectButton } from './glow-effect-button';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Glow Effect
+# 动态光晕
 
-A customizable glow effect with animation modes, colors, blur, and transitions.
+为卡片和界面元素添加柔和的动态光效。
 
-## Examples
+## 示例
 
-### Glow effect static background
-
+### 静态背景光晕
 <ComponentCodePreview
   component={<GlowEffectCardBackground />}
   filePath='app/docs/glow-effect/glow-effect-card-background.tsx'
 />
 
-### Glow effect button
-
-You can use different `modes` to animate the glow effect.
+### 光晕按钮
+可以使用不同的 `modes` 为光晕效果添加动画。
 
 <ComponentCodePreview
   component={<GlowEffectButton />}
   filePath='app/docs/glow-effect/glow-effect-button.tsx'
 />
 
-### Glow effect card mode
-
+### 卡片光晕模式
 <ComponentCodePreview
   component={<GlowEffectCardMode />}
   filePath='app/docs/glow-effect/glow-effect-card-mode.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -57,11 +53,11 @@ You can use different `modes` to animate the glow effect.
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/glow-effect.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -69,9 +65,9 @@ You can use different `modes` to animate the glow effect.
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### GlowEffect
+### 动态光晕组件（`GlowEffect`）
 
 | Prop       | Type                                                                                                       | Default                                      | Description                                        |
 | :--------- | :--------------------------------------------------------------------------------------------------------- | :------------------------------------------- | :------------------------------------------------- |

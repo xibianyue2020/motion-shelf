@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Morphing Dialog - Motion-Primitives',
-  description:
-    'A dialog that uses layout animations to transition content into a focused view. It supports click-outside and escape key functionalities for closing. Built for React, Next.js, and Tailwind CSS.',
+  title: '形变弹窗 - Motion Shelf',
+  description: '在触发按钮与弹窗之间自然变形过渡。',
 };
 
 import { MorphingDialogBasicOne } from './morphing-dialog-basic-1';
@@ -9,40 +8,37 @@ import { MorphingDialogBasicTwo } from './morphing-dialog-basic-2';
 import { MorphingDialogBasicImage } from './morphing-dialog-image';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Morphing Dialog
+# 形变弹窗
 
-A dialog that uses layout animations to transition content into a focused view. It supports click-outside and escape key functionalities for closing.
+在触发按钮与弹窗之间自然变形过渡。
 
-## Examples
+## 示例
 
-### Morphing Dialog Basic
-
+### 基础形变弹窗
 <ComponentCodePreview
   component={<MorphingDialogBasicOne />}
   filePath='app/docs/morphing-dialog/morphing-dialog-basic-1.tsx'
 />
 
-### Morphing Dialog Basic 2
-
+### 形变弹窗样式二
 <ComponentCodePreview
   component={<MorphingDialogBasicTwo />}
   filePath='app/docs/morphing-dialog/morphing-dialog-basic-2.tsx'
 />
 
-### Morphing Dialog Image
-
+### 图片形变弹窗
 <ComponentCodePreview
   component={<MorphingDialogBasicImage />}
   filePath='app/docs/morphing-dialog/morphing-dialog-image.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -55,11 +51,11 @@ A dialog that uses layout animations to transition content into a focused view. 
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/morphing-dialog.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -67,16 +63,16 @@ A dialog that uses layout animations to transition content into a focused view. 
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### MorphingDialog
+### 形变弹窗组件（`MorphingDialog`）
 
 | Prop       | Type       | Default | Description                                                         |
 | :--------- | :--------- | :------ | :------------------------------------------------------------------ |
 | children   | ReactNode  |         | The content of the dialog which could include triggers and content. |
 | transition | Transition |         | Transition settings from motion for animation effects.              |
 
-### MorphingDialogTrigger
+### 形变弹窗触发器（`MorphingDialogTrigger`）
 
 | Prop       | Type                | Default | Description                                                      |
 | :--------- | :------------------ | :------ | :--------------------------------------------------------------- |
@@ -85,7 +81,7 @@ A dialog that uses layout animations to transition content into a focused view. 
 | style      | React.CSSProperties |         | Inline styles for the trigger element.                           |
 | triggerRef | React.RefObject     |         | Ref to attach to the trigger element, useful for managing focus. |
 
-### MorphingDialogContent
+### 形变弹窗内容（`MorphingDialogContent`）
 
 | Prop      | Type                | Default | Description                                              |
 | :-------- | :------------------ | :------ | :------------------------------------------------------- |
@@ -93,7 +89,7 @@ A dialog that uses layout animations to transition content into a focused view. 
 | className | string              |         | Optional CSS class for styling the content container.    |
 | style     | React.CSSProperties |         | Inline styles for the content container.                 |
 
-### MorphingDialogTitle
+### 形变弹窗标题（`MorphingDialogTitle`）
 
 | Prop      | Type                | Default | Description                               |
 | :-------- | :------------------ | :------ | :---------------------------------------- |
@@ -101,7 +97,7 @@ A dialog that uses layout animations to transition content into a focused view. 
 | className | string              |         | Optional CSS class for the title element. |
 | style     | React.CSSProperties |         | Inline styles for the title element.      |
 
-### MorphingDialogSubtitle
+### 形变弹窗副标题（`MorphingDialogSubtitle`）
 
 | Prop      | Type                | Default | Description                                  |
 | :-------- | :------------------ | :------ | :------------------------------------------- |
@@ -109,7 +105,7 @@ A dialog that uses layout animations to transition content into a focused view. 
 | className | string              |         | Optional CSS class for the subtitle element. |
 | style     | React.CSSProperties |         | Inline styles for the subtitle element.      |
 
-### MorphingDialogDescription
+### 形变弹窗说明（`MorphingDialogDescription`）
 
 | Prop                   | Type      | Default | Description                                              |
 | :--------------------- | :-------- | :------ | :------------------------------------------------------- |
@@ -118,7 +114,7 @@ A dialog that uses layout animations to transition content into a focused view. 
 | disableLayoutAnimation | boolean   | false   | If true, disables layout animations for the description. |
 | variants               | Object    |         | Variants for the animation states of the description.    |
 
-### MorphingDialogImage
+### 形变弹窗图片（`MorphingDialogImage`）
 
 | Prop      | Type                | Default | Description                               |
 | :-------- | :------------------ | :------ | :---------------------------------------- |
@@ -127,7 +123,7 @@ A dialog that uses layout animations to transition content into a focused view. 
 | className | string              |         | Optional CSS class for the image element. |
 | style     | React.CSSProperties |         | Inline styles for the image element.      |
 
-### MorphingDialogClose
+### 关闭形变弹窗（`MorphingDialogClose`）
 
 | Prop      | Type      | Default | Description                                                       |
 | :-------- | :-------- | :------ | :---------------------------------------------------------------- |

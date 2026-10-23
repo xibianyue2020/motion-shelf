@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Sliding Number - Motion-Primitives',
-  description:
-    'A component that slides numbers. Built for React, Next.js, and Tailwind CSS.',
+  title: '数字翻牌 - Motion Shelf',
+  description: '数字变化时以滚动方式切换数位。',
 };
 
 import { Clock } from './clock';
@@ -9,41 +8,38 @@ import { SlidingNumberBasic } from './sliding-basic';
 import { SlidingNumberWithSlider } from './sliding-slider';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Sliding Number
+# 数字翻牌
 
-A component that slides numbers.
+数字变化时以滚动方式切换数位。
 
-## Examples
+## 示例
 
-### Clock
-
+### 时钟数字动效
 <ComponentCodePreview
   component={<Clock />}
   filePath='app/docs/sliding-number/clock.tsx'
 />
 
-### Sliding number with slider
-
+### 滑块控制数字
 <ComponentCodePreview
   component={<SlidingNumberWithSlider />}
   filePath='app/docs/sliding-number/sliding-slider.tsx'
 />
 
-### Sliding number basic
-
+### 基础数字翻牌
 <ComponentCodePreview
   component={<SlidingNumberBasic />}
   filePath='app/docs/sliding-number/sliding-basic.tsx'
   hasReTrigger
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -56,11 +52,11 @@ A component that slides numbers.
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/sliding-number.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -68,9 +64,9 @@ A component that slides numbers.
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### SlidingNumber
+### 数字翻牌组件（`SlidingNumber`）
 
 | Prop             | Type    | Default | Description                                                                |
 | :--------------- | :------ | :------ | :------------------------------------------------------------------------- |
@@ -78,6 +74,6 @@ A component that slides numbers.
 | padStart         | boolean | false   | Whether to pad the integer part with a leading zero if it is less than 10. |
 | decimalSeparator | string  | '.'     | The character to use as the decimal separator.                             |
 
-## Credits
+## 致谢
 
-Inspired by Number Flow and Animated Counter.
+灵感来自 Number Flow 与 Animated Counter。

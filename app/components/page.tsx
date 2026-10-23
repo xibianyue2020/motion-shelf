@@ -43,7 +43,7 @@ export default function ComponentsPage() {
         <div className='component-grid'>
           {filtered.map((item, index) => (
             <Link className='component-card' href={`/docs/${item.id}`} key={item.id}>
-              <div className={`component-card-art art-${index % 6}`}><span>{item.name.split(' ').map((word) => word[0]).join('').slice(0, 2)}</span><b>{item.name}</b></div>
+              <div className={`component-card-art art-${index % 6}`}><span>{item.name.slice(0, 2)}</span><b>{item.name}</b></div>
               <div className='component-card-meta'><div><span className='component-category'>{item.category}</span><h2>{item.name}</h2><p className='component-description'>{item.description}</p></div><span className='component-open' aria-hidden>↗</span></div>
             </Link>
           ))}

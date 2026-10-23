@@ -41,10 +41,9 @@ export function TextLoopOnIndexChange() {
       }}
     >
       <span>
-        <Music size={12} className='mr-1 inline-block' />A Little Lost・Arthur
-        Russell
+        <Music size={12} className='mr-1 inline-block' />迷失一小会儿・Arthur Russell
       </span>
-      <span>La Trinité, Martinique</span>
+      <span>马提尼克岛・拉特里尼泰</span>
     </TextLoop>
   );
 }

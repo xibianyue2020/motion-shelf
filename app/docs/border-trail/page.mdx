@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Border Trail - Motion-Primitives',
-  description:
-    'Animated border effect that moves along the edges of its parent container. Built for React, Next.js, and Tailwind CSS.',
+  title: '边框流光 - Motion Shelf',
+  description: '沿容器边框循环移动的光迹效果。',
 };
 
 import { BorderTrailCard1 } from './border-trail-card-1';
@@ -9,40 +8,37 @@ import { BorderTrailCard2 } from './border-trail-card-2';
 import { BorderTrailTextarea } from './border-trail-textarea';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Border Trail
+# 边框流光
 
-Animated border effect that moves along the edges of its parent container.
+沿容器边框循环移动的光迹效果。
 
-## Examples
+## 示例
 
-### Border Trail Card
-
+### 卡片边框流光
 <ComponentCodePreview
   component={<BorderTrailCard1 />}
   filePath='app/docs/border-trail/border-trail-card-1.tsx'
 />
 
-### Border Trail Loading Card
-
+### 加载卡片边框流光
 <ComponentCodePreview
   component={<BorderTrailCard2 />}
   filePath='app/docs/border-trail/border-trail-card-2.tsx'
 />
 
-### Border Trail Textarea
-
+### 文本框边框流光
 <ComponentCodePreview
   component={<BorderTrailTextarea />}
   filePath='app/docs/border-trail/border-trail-textarea.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -55,11 +51,11 @@ Animated border effect that moves along the edges of its parent container.
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/border-trail.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -67,9 +63,9 @@ Animated border effect that moves along the edges of its parent container.
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### Border Trail
+### 边框流光组件（`Border Trail`）
 
 | Prop                | Type       | Default | Description                                               |
 | :------------------ | :--------- | :------ | :-------------------------------------------------------- |

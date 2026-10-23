@@ -41,7 +41,7 @@ export function BorderTrailCard2() {
           aria-label='Load'
           onClick={handleLoad}
         >
-          Submit
+          提交
         </button>
       </div>
     </div>

@@ -1,42 +1,39 @@
 export const metadata = {
-  title: 'Text Shimmer - Motion-Primitives',
-  description:
-    'Shimmer effect on text. Easily adjust the duration and the spread of the shimmer effect. Built for React, Next.js, and Tailwind CSS.',
+  title: '文字流光 - Motion Shelf',
+  description: '沿文字表面扫过的渐变闪光效果。',
 };
 
 import { TextShimmerBasic } from './text-shimmer-basic';
 import { TextShimmerColor } from './text-shimmer-color';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Text Shimmer
+# 文字流光
 
-Shimmer effect on text. Easily adjust the duration and the spread of the shimmer effect.
+沿文字表面扫过的渐变闪光效果。
 
-## Examples
+## 示例
 
-### Text Shimmer Basic
-
+### 基础文字流光
 <ComponentCodePreview
   component={<TextShimmerBasic />}
   filePath='app/docs/text-shimmer/text-shimmer-basic.tsx'
 />
 
-### Text Shimmer Color
-
-You can use the `[--base-color]` and `[--base-gradient-color]` CSS variables to customize the color of the shimmer effect.
+### 自定义文字流光颜色
+可以通过 `[--base-color]` 和 `[--base-gradient-color]` 这两个 CSS 变量自定义流光颜色。
 
 <ComponentCodePreview
   component={<TextShimmerColor />}
   filePath='app/docs/text-shimmer/text-shimmer-color.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -49,11 +46,11 @@ You can use the `[--base-color]` and `[--base-gradient-color]` CSS variables to 
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/text-shimmer.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -61,9 +58,9 @@ You can use the `[--base-color]` and `[--base-gradient-color]` CSS variables to 
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### TextShimmer
+### 文字流光组件（`TextShimmer`）
 
 | Prop      | Type                        | Default   | Description                                    |
 | :-------- | :-------------------------- | :-------- | :--------------------------------------------- |
@@ -73,6 +70,6 @@ You can use the `[--base-color]` and `[--base-gradient-color]` CSS variables to 
 | duration  | number                      | 2         | The duration of the shimmer effect.            |
 | spread    | number                      | 2         | The spread of the shimmer effect.              |
 
-## Credits
+## 致谢
 
-Inspired by JohnPhamous for the idea of the shimmer effect that scales with the content length.
+流光效果会根据内容长度调整范围，设计思路来自 JohnPhamous。

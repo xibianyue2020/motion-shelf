@@ -3,7 +3,7 @@ import { TextEffect } from '@/components/core/text-effect';
 export function TextEffectPerChar() {
   return (
     <TextEffect per='char' preset='fade'>
-      Animate your ideas with motion-primitives
+      让创意随动效跃然呈现
     </TextEffect>
   );
 }

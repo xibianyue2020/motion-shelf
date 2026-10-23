@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Text Roll - Motion-Primitives',
-  description:
-    'A text roll component that rotates each character, fully customizable for nice text animations. Built for React, Next.js, and Tailwind CSS.',
+  title: '文字翻滚 - Motion Shelf',
+  description: '以滚动方式逐字或逐段显示文本。',
 };
 
 import { TextRollBasic } from './text-roll-basic';
@@ -10,14 +9,13 @@ import { TextRollCustomTransitionDelay } from './text-roll-custom-transition-del
 import ComponentCodePreview from '@/components/website/component-code-preview';
 import CodeBlock from '@/components/website/code-block';
 
-# Text Roll
+# 文字翻滚
 
-A text roll component that rotates each character, fully customizable for nice text animations.
+以滚动方式逐字或逐段显示文本。
 
-## Examples
+## 示例
 
-### Text Roll basic
-
+### 基础文字翻滚
 <ComponentCodePreview
   component={<TextRollBasic />}
   filePath='app/docs/text-roll/text-roll-basic.tsx'
@@ -25,8 +23,7 @@ A text roll component that rotates each character, fully customizable for nice t
   hasReTrigger
 />
 
-### Text Roll custom variants
-
+### 自定义文字翻滚变体
 <ComponentCodePreview
   component={<TextRollCustomVariants />}
   filePath='app/docs/text-roll/text-roll-custom-variants.tsx'
@@ -34,8 +31,7 @@ A text roll component that rotates each character, fully customizable for nice t
   hasReTrigger
 />
 
-### Text Roll custom transition delay
-
+### 自定义过渡延迟
 <ComponentCodePreview
   component={<TextRollCustomTransitionDelay />}
   filePath='app/docs/text-roll/text-roll-custom-transition-delay.tsx'
@@ -43,13 +39,13 @@ A text roll component that rotates each character, fully customizable for nice t
   hasReTrigger
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -62,11 +58,11 @@ A text roll component that rotates each character, fully customizable for nice t
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/text-roll.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -74,9 +70,9 @@ A text roll component that rotates each character, fully customizable for nice t
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### Text Roll
+### 文字翻滚组件（`Text Roll`）
 
 | Prop                | Type                  | Default               | Description                                                   |
 | :------------------ | :-------------------- | :-------------------- | :------------------------------------------------------------ |

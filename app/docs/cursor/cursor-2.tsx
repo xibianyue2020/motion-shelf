@@ -50,7 +50,7 @@ export function Cursor2() {
           <div>
             <MouseIcon className='h-6 w-6' />
             <div className='ml-4 mt-1 rounded-[4px] bg-green-500 px-2 py-0.5 text-neutral-50'>
-              The city below
+              俯瞰城市
             </div>
           </div>
         </Cursor>

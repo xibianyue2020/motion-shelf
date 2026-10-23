@@ -17,7 +17,7 @@ export function MorphingPopoverBasic() {
             layoutId='morphing-popover-basic-label'
             layout='position'
           >
-            Open popover
+            打开浮层
           </motion.span>
         </Button>
       </MorphingPopoverTrigger>
@@ -29,15 +29,15 @@ export function MorphingPopoverBasic() {
               layout='position'
               className='leading-none font-medium'
             >
-              Dimensions
+              尺寸
             </motion.h4>
             <p className='text-muted-foreground text-sm'>
-              Set the dimensions for the layer.
+              设置图层的尺寸。
             </p>
           </div>
           <div className='grid gap-2'>
             <div className='grid grid-cols-3 items-center gap-4'>
-              <Label htmlFor='width'>Width</Label>
+              <Label htmlFor='width'>宽度</Label>
               <Input
                 id='width'
                 defaultValue='100%'
@@ -46,7 +46,7 @@ export function MorphingPopoverBasic() {
               />
             </div>
             <div className='grid grid-cols-3 items-center gap-4'>
-              <Label htmlFor='maxWidth'>Max. width</Label>
+              <Label htmlFor='maxWidth'>最大宽度</Label>
               <Input
                 id='maxWidth'
                 defaultValue='300px'
@@ -54,7 +54,7 @@ export function MorphingPopoverBasic() {
               />
             </div>
             <div className='grid grid-cols-3 items-center gap-4'>
-              <Label htmlFor='height'>Height</Label>
+              <Label htmlFor='height'>高度</Label>
               <Input
                 id='height'
                 defaultValue='25px'
@@ -62,7 +62,7 @@ export function MorphingPopoverBasic() {
               />
             </div>
             <div className='grid grid-cols-3 items-center gap-4'>
-              <Label htmlFor='maxHeight'>Max. height</Label>
+              <Label htmlFor='maxHeight'>最大高度</Label>
               <Input
                 id='maxHeight'
                 defaultValue='none'

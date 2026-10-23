@@ -7,7 +7,7 @@ export function TextScrambleCustomCharacterDuration() {
       duration={1.2}
       characterSet='. '
     >
-      Generating the interface...
+      正在生成界面…
     </TextScramble>
   );
 }

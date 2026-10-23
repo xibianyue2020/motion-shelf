@@ -16,9 +16,9 @@ export function TiltCard1() {
         />
         <div className='p-2'>
           <h1 className='font-mono leading-snug text-zinc-950 dark:text-zinc-50'>
-            Ghost in the Shell
+            攻壳机动队
           </h1>
-          <p className='text-zinc-700 dark:text-zinc-400'>Kôkaku kidôtai</p>
+          <p className='text-zinc-700 dark:text-zinc-400'>攻壳机动队</p>
         </div>
       </div>
     </Tilt>

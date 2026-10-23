@@ -4,12 +4,7 @@ import { ScrollProgress } from '@/components/core/scroll-progress';
 
 const dummyContent = Array.from({ length: 10 }, (_, i) => (
   <p key={i} className='pb-4 font-mono text-sm text-zinc-500'>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam
-    lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra
-    nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget
-    libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut
-    porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies
-    a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    这里展示一段占位文本，用来观察内容在不同布局与动效中的呈现效果。你可以替换成自己的标题、介绍和说明文字。
   </p>
 ));
 
@@ -28,19 +23,19 @@ export function ScrollProgressBasic2() {
             href='#'
             className='text-zinc-700 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white'
           >
-            Magazine
+            杂志
           </a>
           <a
             href='#'
             className='text-zinc-700 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white'
           >
-            Blog
+            博客
           </a>
           <a
             href='#'
             className='text-zinc-700 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white'
           >
-            About
+            关于我们
           </a>
         </div>
       </div>

@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Tilt - Motion-Primitives',
-  description:
-    '3D tilt effect that responds to mouse movement, enhancing UI elements with a dynamic depth effect, customizable rotation factors and spring options. Built for React, Next.js, and Tailwind CSS.',
+  title: '3D 倾斜 - Motion Shelf',
+  description: '根据指针位置产生透视倾斜与光影反馈。',
 };
 
 import { TiltCard1 } from './tilt-card-1';
@@ -9,35 +8,33 @@ import { TiltSpotlight } from './tilt-spotlight';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 import CodeBlock from '@/components/website/code-block';
 
-# Tilt
+# 3D 倾斜
 
-3D tilt effect that responds to mouse movement, enhancing UI elements with a dynamic depth effect, customizable rotation factors and spring options.
+根据指针位置产生透视倾斜与光影反馈。
 
-## Examples
+## 示例
 
-### Basic Tilt Card
-
+### 基础 3D 倾斜卡片
 <ComponentCodePreview
   component={<TiltCard1 />}
   filePath='app/docs/tilt/tilt-card-1.tsx'
 />
 
-### Tilt with Spotlight
-
-Example of the [Spotlight component](/docs/spotlight) used with the Tilt component.
+### 倾斜卡片聚光效果
+本示例将[聚光效果](/docs/spotlight)与倾斜组件组合使用。
 
 <ComponentCodePreview
   component={<TiltSpotlight />}
   filePath='app/docs/tilt/tilt-spotlight.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -50,11 +47,11 @@ Example of the [Spotlight component](/docs/spotlight) used with the Tilt compone
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/tilt.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -62,9 +59,9 @@ Example of the [Spotlight component](/docs/spotlight) used with the Tilt compone
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### Border Trail
+### 边框流光组件（`Border Trail`）
 
 | Prop           | Type          | Default | Description                                     |
 | :------------- | :------------ | :------ | :---------------------------------------------- |
@@ -74,6 +71,6 @@ Example of the [Spotlight component](/docs/spotlight) used with the Tilt compone
 | isRevese       | boolean       | false   | Reverses the tilt effect's rotation direction.  |
 | springOptions  | SpringOptions |         | Spring options for the tilt effect.             |
 
-## Credits
+## 致谢
 
-Initiated by @AFPedreros
+动效方案由 @AFPedreros 发起。

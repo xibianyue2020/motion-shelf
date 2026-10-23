@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Animated Number - Motion-Primitives',
-  description:
-    'Easily animate numbers. Built for React, Next.js, and Tailwind CSS.',
+  title: '数字动效 - Motion Shelf',
+  description: '数字变化时自动滚动并平滑过渡。',
 };
 
 import { AnimatedNumberBasic } from './animated-number-basic';
@@ -9,14 +8,13 @@ import { AnimatedNumberCounter } from './animated-number-counter';
 import { AnimatedNumberInView } from './animated-number-in-view';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Animated Number
+# 数字动效
 
-Easily animate numbers.
+数字变化时自动滚动并平滑过渡。
 
-## Examples
+## 示例
 
-### Basic
-
+### 基础示例
 <ComponentCodePreview
   component={<AnimatedNumberBasic />}
   filePath='app/docs/animated-number/animated-number-basic.tsx'
@@ -24,29 +22,27 @@ Easily animate numbers.
   classNameComponentContainer='min-h-[250px]'
 />
 
-### Basic counter
-
+### 基础计数器
 <ComponentCodePreview
   component={<AnimatedNumberCounter />}
   filePath='app/docs/animated-number/animated-number-counter.tsx'
   classNameComponentContainer='min-h-[250px]'
 />
 
-### With useInView
-
+### 进入视口时触发
 <ComponentCodePreview
   component={<AnimatedNumberInView />}
   filePath='app/docs/animated-number/animated-number-in-view.tsx'
   classNameComponentContainer='min-h-[250px]'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -59,11 +55,11 @@ Easily animate numbers.
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/animated-number.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -71,7 +67,7 @@ Easily animate numbers.
 
 </Tabs>
 
-## Component API
+## 组件接口
 
 | Prop          | Type              | Default | Description                                               |
 | :------------ | :---------------- | :------ | :-------------------------------------------------------- |

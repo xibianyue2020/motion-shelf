@@ -1,42 +1,39 @@
 export const metadata = {
-  title: 'Magnetic - Motion-Primitives',
-  description:
-    'A magnetic effect for elements that allows them to be attracted to the mouse cursor. Built for React, Next.js, and Tailwind CSS.',
+  title: '磁吸效果 - Motion Shelf',
+  description: '指针靠近时产生磁吸跟随效果的交互元素。',
 };
 
 import { MagneticBasic } from './magnetic-basic';
 import { MagneticNested } from './magnetic-nested';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Magnetic
+# 磁吸效果
 
-A magnetic effect for elements that allows them to be attracted to the mouse cursor.
+指针靠近时产生磁吸跟随效果的交互元素。
 
-## Examples
+## 示例
 
-### Magnetic Basic
-
+### 基础磁吸效果
 <ComponentCodePreview
   component={<MagneticBasic />}
   filePath='app/docs/magnetic/magnetic-basic.tsx'
 />
 
-### Magnetic Nested
-
-You can nest the Magnetic component to create a more complex effect. Here we use `actionArea='global'` to make the magnetic effect apply to the global area. We also use custom range to make the magnetic effect apply to a larger area.
+### 嵌套磁吸效果
+可以嵌套使用 Magnetic 组件，构建更丰富的磁吸效果。示例将 `actionArea='global'` 设为全局响应区域，并扩大磁吸范围。
 
 <ComponentCodePreview
   component={<MagneticNested />}
   filePath='app/docs/magnetic/magnetic-nested.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -49,11 +46,11 @@ You can nest the Magnetic component to create a more complex effect. Here we use
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/magnetic.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -61,9 +58,9 @@ You can nest the Magnetic component to create a more complex effect. Here we use
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### Magnetic
+### 磁吸组件（`Magnetic`）
 
 | Prop          | Type                           | Default       | Description                                                                                    |
 | :------------ | :----------------------------- | :------------ | :--------------------------------------------------------------------------------------------- |

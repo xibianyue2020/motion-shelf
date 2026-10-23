@@ -3,7 +3,7 @@ import { InView } from '@/components/core/in-view';
 export function InViewBasic() {
   return (
     <div className='h-[350px] w-full overflow-auto'>
-      <div className='py-12 text-center text-sm'>Scroll down</div>
+      <div className='py-12 text-center text-sm'>向下滚动</div>
       <div className='flex h-[500px] items-end justify-center px-4 pb-24'>
         <InView
           variants={{
@@ -16,12 +16,9 @@ export function InViewBasic() {
           <div className='max-w-96'>
             <p className=''>
               <strong className='font-medium'>
-                Craft beautiful animated components with Motion-Primitives.
+                用动效组件打造更生动的界面。
               </strong>{' '}
-              Designed for developers and designers. The library leverages the
-              power of Motion, with intuitive APIs that simplifies creating
-              complex animations for any project. Start building more dynamic
-              interfaces today.
+              面向开发者与设计师打造。借助 Motion 与直观的 API，轻松组合复杂动画，为项目创建更鲜活的交互界面。
             </p>
           </div>
         </InView>

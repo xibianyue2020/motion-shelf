@@ -8,7 +8,7 @@ export function SlidingNumberWithSlider() {
 
   return (
     <div className='flex flex-col items-start gap-0'>
-      <div className='flex items-center gap-2 font-mono'>Current ARR:</div>
+      <div className='flex items-center gap-2 font-mono'>当前年化收入：</div>
       <div className='inline-flex items-center gap-1 font-mono leading-none'>
         $<SlidingNumber value={value} />
       </div>

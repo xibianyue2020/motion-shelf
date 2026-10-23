@@ -30,7 +30,7 @@ export function MorphingPopoverTextarea() {
     >
       <MorphingPopoverTrigger className='flex h-9 items-center rounded-lg border border-zinc-950/10 bg-white px-3 text-zinc-950 dark:border-zinc-50/10 dark:bg-zinc-700 dark:text-zinc-50'>
         <motion.span layoutId={`popover-label-${uniqueId}`} className='text-sm'>
-          Add Note
+          添加备注
         </motion.span>
       </MorphingPopoverTrigger>
       <MorphingPopoverContent className='rounded-xl border border-zinc-950/10 bg-white p-0 shadow-[0_9px_9px_0px_rgba(0,0,0,0.01),_0_2px_5px_0px_rgba(0,0,0,0.06)] dark:bg-zinc-700'>
@@ -49,7 +49,7 @@ export function MorphingPopoverTextarea() {
               }}
               className='absolute top-3 left-4 text-sm text-zinc-500 select-none dark:text-zinc-400'
             >
-              Add Note
+              添加备注
             </motion.span>
             <textarea
               className='h-full w-full resize-none rounded-md bg-transparent px-4 py-3 text-sm outline-hidden'
@@ -76,7 +76,7 @@ export function MorphingPopoverTextarea() {
                   closeMenu();
                 }}
               >
-                Submit
+                提交
               </button>
             </div>
           </form>

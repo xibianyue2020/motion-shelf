@@ -15,7 +15,7 @@ export function TextRollCustomVariants() {
         },
       }}
     >
-      motion-primitives
+      动效组件库
     </TextRoll>
   );
 }

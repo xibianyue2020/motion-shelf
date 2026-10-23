@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Spotlight - Motion-Primitives',
-  description:
-    'A dynamic spotlight effect component that follows cursor movement. Built for React, Next.js, and Tailwind CSS.',
+  title: '聚光灯 - Motion Shelf',
+  description: '跟随指针移动的聚光照明效果。',
 };
 
 import { SpotlightBasic } from './spotlight-basic';
@@ -9,23 +8,21 @@ import { SpotlightCustomColor } from './spotlight-custom-color';
 import { SpotlightBorder } from './spotlight-border';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Spotlight
+# 聚光灯
 
-A dynamic spotlight effect component that follows cursor movement.
+跟随指针移动的聚光照明效果。
 
-## Examples
+## 示例
 
-### Spotlight Basic 1
-
+### 基础聚光灯
 <ComponentCodePreview
   component={<SpotlightBasic />}
   filePath='app/docs/spotlight/spotlight-basic.tsx'
   classNameComponentContainer='px-4'
 />
 
-### Spotlight Custom Color
-
-You can customize the color with using Tailwind CSS gradient color stop. (e.g `from-blue-800 via-blue-600 to-blue-400`)
+### 自定义聚光色
+可以通过 Tailwind CSS 渐变色标自定义颜色，例如 `from-blue-800 via-blue-600 to-blue-400`。
 
 <ComponentCodePreview
   component={<SpotlightCustomColor />}
@@ -33,9 +30,8 @@ You can customize the color with using Tailwind CSS gradient color stop. (e.g `f
   classNameComponentContainer='px-4'
 />
 
-### Spotlight Border
-
-You can create a spotlight border by creating a container with a padding that will be used as a border.
+### 聚光边框
+为容器增加内边距即可将聚光效果呈现为边框。
 
 <ComponentCodePreview
   component={<SpotlightBorder />}
@@ -43,13 +39,13 @@ You can create a spotlight border by creating a container with a padding that wi
   classNameComponentContainer='px-4'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -62,20 +58,20 @@ You can create a spotlight border by creating a container with a padding that wi
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/spotlight.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
 </TabsContent>
 
 </Tabs>
-## Component API
+## 组件接口
 
-### Spotlight
+### 聚光灯组件（`Spotlight`）
 
 | Prop          | Type          | Default         | Description                            |
 | :------------ | :------------ | :-------------- | :------------------------------------- |
@@ -83,6 +79,6 @@ You can create a spotlight border by creating a container with a padding that wi
 | size          | number        | 200             | Size of the spotlight effect in pixels |
 | springOptions | SpringOptions | `{ bounce: 0 }` | Animation spring configuration         |
 
-## Credit
+## 致谢
 
-Initiated by @divyanshu-vashishth
+动效方案由 @divyanshu-vashishth 发起。

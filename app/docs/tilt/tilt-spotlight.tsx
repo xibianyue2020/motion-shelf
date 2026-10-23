@@ -35,7 +35,7 @@ export function TiltSpotlight() {
       </Tilt>
       <div className='flex flex-col space-y-0.5 pb-0 pt-3'>
         <h3 className='font-mono text-sm font-medium text-zinc-500 dark:text-zinc-400'>
-          2001: A Space Odyssey
+          2001 太空漫游
         </h3>
         <p className='text-sm text-black dark:text-white'>Stanley Kubrick</p>
       </div>

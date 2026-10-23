@@ -37,7 +37,7 @@ export function MorphingDialogBasicOne() {
               EB27
             </MorphingDialogTitle>
             <MorphingDialogSubtitle className='text-zinc-700 dark:text-zinc-400'>
-              Edouard Wilfrid Buquet
+              爱德华·威尔弗里德·布凯
             </MorphingDialogSubtitle>
           </div>
           <button
@@ -66,7 +66,7 @@ export function MorphingDialogBasicOne() {
               EB27
             </MorphingDialogTitle>
             <MorphingDialogSubtitle className='text-zinc-700 dark:text-zinc-400'>
-              Edouard Wilfrid Buquet
+              爱德华·威尔弗里德·布凯
             </MorphingDialogSubtitle>
             <MorphingDialogDescription
               disableLayoutAnimation
@@ -77,14 +77,10 @@ export function MorphingDialogBasicOne() {
               }}
             >
               <p className='mt-2 text-zinc-500 dark:text-zinc-500'>
-                Little is known about the life of Édouard-Wilfrid Buquet. He was
-                born in France in 1866, but the time and place of his death is
-                unfortunately a mystery.
+                关于爱德华·威尔弗里德·布凯的生平记载不多。他于 1866 年出生在法国，离世的时间与地点至今仍不明确。
               </p>
               <p className='text-zinc-500'>
-                Research conducted in the 1970s revealed that he’d designed the
-                “EB 27” double-arm desk lamp in 1925, handcrafting it from
-                nickel-plated brass, aluminium and varnished wood.
+                研究者在 20 世纪 70 年代发现，他曾于 1925 年设计并手工制作 EB 27 双臂台灯，材料包括镀镍黄铜、铝和上漆木材。
               </p>
               <a
                 className='mt-2 inline-flex text-zinc-500 underline'
@@ -92,7 +88,7 @@ export function MorphingDialogBasicOne() {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Are.na block
+                Are.na 内容块
               </a>
             </MorphingDialogDescription>
           </div>

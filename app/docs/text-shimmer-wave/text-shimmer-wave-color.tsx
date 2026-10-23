@@ -10,7 +10,7 @@ export function TextShimmerWaveColor() {
       scaleDistance={1.1}
       rotateYDistance={20}
     >
-      Creating the perfect dish...
+      正在烹制理想佳肴…
     </TextShimmerWave>
   );
 }

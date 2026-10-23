@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Animated background - Motion-Primitives',
-  description:
-    'Visually highlights selected items by sliding a background into view when hovered over or clicked. This smooth transition helps users focus on the active item, making it ideal for interactive lists, menus, or navigations where clear selection feedback is important. Built for React, Next.js, and Tailwind CSS.',
+  title: '动态背景 - Motion Shelf',
+  description: '在多个选项之间切换时，提供连续流畅的背景动效。',
 };
 
 import { AnimatedTabs } from './animated-tabs';
@@ -10,47 +9,43 @@ import { AnimatedCardBackgroundHover } from './animated-card-background-hover';
 import { SegmentedControl } from './segmented-control';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Animated Background
+# 动态背景
 
-Visually highlights selected items by sliding a background into view when hovered over or clicked. This smooth transition helps users focus on the active item, making it ideal for interactive lists, menus, or navigations where clear selection feedback is important.',
+在多个选项之间切换时，提供连续流畅的背景动效。
 
-## Examples
+## 示例
 
-### Animated Tabs
-
+### 动态标签切换
 <ComponentCodePreview
   component={<AnimatedTabs />}
   filePath='app/docs/animated-background/animated-tabs.tsx'
 />
 
-### Animated Tabs Hover
-
+### 悬停标签切换
 <ComponentCodePreview
   component={<AnimatedTabsHover />}
   filePath='app/docs/animated-background/animated-tabs-hover.tsx'
 />
 
-### Animated Card Background
-
+### 卡片动态背景
 <ComponentCodePreview
   component={<AnimatedCardBackgroundHover />}
   filePath='app/docs/animated-background/animated-card-background-hover.tsx'
 />
 
-### Segmented Control
-
+### 分段选择器
 <ComponentCodePreview
   component={<SegmentedControl />}
   filePath='app/docs/animated-background/segmented-control.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -63,11 +58,11 @@ Visually highlights selected items by sliding a background into view when hovere
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/animated-background.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -75,7 +70,7 @@ Visually highlights selected items by sliding a background into view when hovere
 
 </Tabs>
 
-## Component API
+## 组件接口
 
 | Prop          | Type                                                                 | Default | Description                                                                                                                                        |
 | :------------ | :------------------------------------------------------------------- | :------ | :------------------------------------------------------------------------------------------------------------------------------------------------- |

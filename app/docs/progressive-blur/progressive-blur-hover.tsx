@@ -38,8 +38,8 @@ export function ProgressiveBlurHover() {
         transition={{ duration: 0.2, ease: 'easeOut' }}
       >
         <div className='flex flex-col items-start gap-0 px-5 py-4'>
-          <p className='text-base font-medium text-white'>John Martin</p>
-          <span className='text-base text-zinc-300'>Pandemonium</span>
+          <p className='text-base font-medium text-white'>约翰·马丁</p>
+          <span className='text-base text-zinc-300'>混沌</span>
         </div>
       </motion.div>
     </div>

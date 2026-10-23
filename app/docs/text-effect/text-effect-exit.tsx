@@ -55,7 +55,7 @@ export function TextEffectWithExit() {
       variants={blurSlideVariants}
       trigger={trigger}
     >
-      Animate your ideas with motion-primitives
+      让创意随动效跃然呈现
     </TextEffect>
   );
 }

@@ -58,20 +58,16 @@ export function DisclosureCard() {
         </DisclosureTrigger>
         <DisclosureContent>
           <div className='flex flex-col pb-4 text-[13px] text-zinc-300 dark:text-zinc-700'>
-            <p>How beautiful the mountain is 🗻</p>
+            <p>群山真美 🗻</p>
             <p className='line-clamp-3'>
-              The “This is trail running” campaign highlights the new trail
-              collection from <strong className='font-medium'>@salomon</strong>,
-              trying to touch the (strong) sensations experienced by runners.
-              With each model, its natural environment. To capture the Pulsar
-              Trail Pro 2 in real conditions, we chose to take the athletes
-              trudging in the French Alps, at 2,000 meters altitude.
+              “越野跑步”主题活动展示了全新越野系列，产品来自 <strong className='font-medium'>@salomon</strong>,
+              希望呈现跑者感受到的强烈体验，以及每双鞋与自然环境的联系。为了记录 Pulsar Trail Pro 2 的真实表现，团队跟随运动员走进海拔 2000 米的法国阿尔卑斯山。
             </p>
             <button
               className='mt-3 w-full rounded-[4px] border border-zinc-700 bg-zinc-900 px-4 py-1 text-zinc-50 transition-colors duration-300 hover:bg-zinc-800'
               type='button'
             >
-              Learn More
+              了解详情
             </button>
           </div>
         </DisclosureContent>

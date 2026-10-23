@@ -22,7 +22,7 @@ export function TextRollCustomTransitionDelay() {
         ease: [0.175, 0.885, 0.32, 1.1],
       }}
     >
-      motion-primitives
+      动效组件库
     </TextRoll>
   );
 }

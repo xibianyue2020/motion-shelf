@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Scroll Progress - Motion-Primitives',
-  description:
-    'Animated scroll progress for your web pages. Built for React, Next.js, and Tailwind CSS.',
+  title: '滚动进度 - Motion Shelf',
+  description: '跟随页面或容器滚动位置变化的进度指示。',
 };
 
 import { ScrollProgress } from '@/components/core/scroll-progress';
@@ -10,40 +9,37 @@ import { ScrollProgressBasic2 } from './scroll-progress-basic-2';
 import { ScrollProgressBasic3 } from './scroll-progress-basic-3';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Scroll Progress
+# 滚动进度
 
-Animated scroll progress for your web pages.
+跟随页面或容器滚动位置变化的进度指示。
 
-## Examples
+## 示例
 
-### Scroll Progress Basic
-
+### 基础滚动进度
 <ComponentCodePreview
   component={<ScrollProgressBasic1 />}
   filePath='app/docs/scroll-progress/scroll-progress-basic-1.tsx'
 />
 
-### Scroll Progress Navigation
-
+### 滚动导航进度
 <ComponentCodePreview
   component={<ScrollProgressBasic2 />}
   filePath='app/docs/scroll-progress/scroll-progress-basic-2.tsx'
 />
 
-### Scroll Progress Gradient
-
+### 渐变滚动进度
 <ComponentCodePreview
   component={<ScrollProgressBasic3 />}
   filePath='app/docs/scroll-progress/scroll-progress-basic-3.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -56,11 +52,11 @@ Animated scroll progress for your web pages.
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/scroll-progress.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -68,9 +64,9 @@ Animated scroll progress for your web pages.
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### ScrollProgress
+### 滚动进度组件（`ScrollProgress`）
 
 | Prop          | Type          | Default | Description                                                |
 | :------------ | :------------ | :------ | :--------------------------------------------------------- |
@@ -78,6 +74,6 @@ Animated scroll progress for your web pages.
 | springOptions | SpringOptions |         | Optional spring options for the scroll progress animation. |
 | containerRef  | RefObject     |         | Optional Ref object for the container element.             |
 
-## Credit
+## 致谢
 
-Initiated by @bhataasim1
+动效方案由 @bhataasim1 发起。

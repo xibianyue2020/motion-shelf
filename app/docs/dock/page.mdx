@@ -1,33 +1,31 @@
 export const metadata = {
-  title: 'Dock - Motion-Primitives',
-  description:
-    'A versatile UI element that provides a flexible and customizable way to organize and display menu items within your application. Built for React, Next.js, and Tailwind CSS.',
+  title: '放大坞栏 - Motion Shelf',
+  description: '指针靠近时放大图标的灵感坞栏。',
 };
 
 import { AppleStyleDock } from './apple-style-dock';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Dock
+# 放大坞栏
 
-A versatile UI element that provides a flexible and customizable way to organize and display menu items within your application.
+指针靠近时放大图标的灵感坞栏。
 
-## Examples
+## 示例
 
-### Apple style dock
-
+### 苹果风格放大坞栏
 <ComponentCodePreview
   component={<AppleStyleDock />}
   filePath='app/docs/dock/apple-style-dock.tsx'
   hasReTrigger
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -40,11 +38,11 @@ A versatile UI element that provides a flexible and customizable way to organize
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/dock.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -52,9 +50,9 @@ A versatile UI element that provides a flexible and customizable way to organize
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### Dock
+### 放大坞栏组件（`Dock`）
 
 | Prop          | Type          | Default                                      | Description                                                                              |
 | :------------ | :------------ | :------------------------------------------- | :--------------------------------------------------------------------------------------- |
@@ -65,7 +63,7 @@ A versatile UI element that provides a flexible and customizable way to organize
 | distance      | number        | 150                                          | The distance from the center of a dock item at which the magnification animation starts. |
 | panelHeight   | number        | 64                                           |
 
-### DockItem
+### 坞栏项目（`DockItem`）
 
 | Prop      | Type       | Default   | Description                                                |
 | :-------- | :--------- | :-------- | :--------------------------------------------------------- |
@@ -73,20 +71,20 @@ A versatile UI element that provides a flexible and customizable way to organize
 | className | string     | undefined | Optional CSS class for styling the component.              |
 | onClick   | () => void | undefined | Optional click handler triggered when the item is clicked. |
 
-### DockLabel
+### 坞栏标签（`DockLabel`）
 
 | Prop      | Type      | Default   | Description                                                 |
 | :-------- | :-------- | :-------- | :---------------------------------------------------------- |
 | children  | ReactNode |           | Content of the label, typically a string or formatted text. |
 | className | string    | undefined | Optional CSS class for styling the component.               |
 
-### DockIcon
+### 坞栏图标（`DockIcon`）
 
 | Prop      | Type      | Default   | Description                                   |
 | :-------- | :-------- | :-------- | :-------------------------------------------- |
 | children  | ReactNode |           | Icon                                          |
 | className | string    | undefined | Optional CSS class for styling the component. |
 
-## Credits
+## 致谢
 
-Created by @kashyap20, inspired by Build UI - Magnified Dock
+由 @kashyap20 制作，灵感来自 Build UI 的放大坞栏。

@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Text Morph - Motion-Primitives',
-  description:
-    'Animates text by morphing shared letters between words, creating fluid transitions. Built for React, Next.js, and Tailwind CSS.',
+  title: '文字变形 - Motion Shelf',
+  description: '在不同文本内容之间进行字形变形过渡。',
 };
 
 import { TextMorphButton } from './text-morph-button';
@@ -9,34 +8,32 @@ import { TextMorphInput } from './text-morph-input';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 import CodeBlock from '@/components/website/code-block';
 
-# Text Morph
+# 文字变形
 
-Animates text by morphing shared letters between words, creating fluid transitions
+在不同文本内容之间进行字形变形过渡。
 
-## Examples
+## 示例
 
-### Text Morph Button
-
+### 文字变形按钮
 <ComponentCodePreview
   component={<TextMorphButton />}
   filePath='app/docs/text-morph/text-morph-button.tsx'
 />
 
-### Text Morph Input
-
+### 文字变形输入框
 <ComponentCodePreview
   component={<TextMorphInput />}
   filePath='app/docs/text-morph/text-morph-input.tsx'
   classNameComponentContainer='min-h-[300px] py-24 lg:px-32 px-8 items-end'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -49,11 +46,11 @@ Animates text by morphing shared letters between words, creating fluid transitio
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/text-morph.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -61,9 +58,9 @@ Animates text by morphing shared letters between words, creating fluid transitio
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### TextMorph
+### 文字变形组件（`TextMorph`）
 
 | Prop      | Type                        | Default   | Description                                    |
 | :-------- | :-------------------------- | :-------- | :--------------------------------------------- |
@@ -72,6 +69,6 @@ Animates text by morphing shared letters between words, creating fluid transitio
 | className | string                      | undefined | Optional CSS class for styling the component.  |
 | style     | React.CSSProperties         | undefined | Optional inline styles for the component.      |
 
-## Credits
+## 致谢
 
-Inspired by Family iOS app. See also Family Values
+灵感来自 Family iOS 应用，也可参考 Family Values。

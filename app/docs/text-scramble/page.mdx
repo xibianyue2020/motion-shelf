@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Text Scramble - Motion-Primitives',
-  description:
-    'Text animation that transforms text by randomly cycling through characters before settling on the final content, creating an engaging cryptographic effect. Built for React, Next.js, and Tailwind CSS.',
+  title: '文字扰码 - Motion Shelf',
+  description: '字符逐步扰动并还原为目标文本。',
 };
 
 import { TextScrambleBasic } from './text-scramble-basic';
@@ -9,14 +8,13 @@ import { TextScrambleCustomCharacterDuration } from './text-scramble-custom-char
 import { TextScrambleCustomTrigger } from './text-scramble-custom-trigger';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Text Scramble
+# 文字扰码
 
-Text animation that transforms text by randomly cycling through characters before settling on the final content, creating an engaging cryptographic effect.
+字符逐步扰动并还原为目标文本。
 
-## Examples
+## 示例
 
-### Text Scramble Basic
-
+### 基础文字扰码
 <ComponentCodePreview
   component={<TextScrambleBasic />}
   filePath='app/docs/text-scramble/text-scramble-basic.tsx'
@@ -24,16 +22,14 @@ Text animation that transforms text by randomly cycling through characters befor
   classNameComponentContainer='min-h-0 py-12 px-12 justify-start items-start'
 />
 
-### Text Scramble with custom trigger
-
+### 自定义触发方式
 <ComponentCodePreview
   component={<TextScrambleCustomTrigger />}
   filePath='app/docs/text-scramble/text-scramble-custom-trigger.tsx'
   classNameComponentContainer='min-h-0 py-12 px-12 justify-start items-start'
 />
 
-### Text Scramble with custom character and duration
-
+### 自定义字符与持续时间
 <ComponentCodePreview
   component={<TextScrambleCustomCharacterDuration />}
   filePath='app/docs/text-scramble/text-scramble-custom-char-duration.tsx'
@@ -41,13 +37,13 @@ Text animation that transforms text by randomly cycling through characters befor
   classNameComponentContainer='min-h-0 py-12 px-12 justify-start items-start'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -60,11 +56,11 @@ Text animation that transforms text by randomly cycling through characters befor
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/text-scramble.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -72,9 +68,9 @@ Text animation that transforms text by randomly cycling through characters befor
 
 </Tabs>
 
-## Component API
+## 组件接口
 
-### TextScramble
+### 文字扰码组件（`TextScramble`）
 
 | Prop               | Type                        | Default              | Description                                         |
 | :----------------- | :-------------------------- | :------------------- | :-------------------------------------------------- |

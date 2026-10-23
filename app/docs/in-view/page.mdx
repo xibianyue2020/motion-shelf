@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'In view - Motion-Primitives',
-  description:
-    'Easily animate elements when they come into view. You can apply animations to elements when they enter the viewport, or when they are fully visible. Built for React, Next.js, and Tailwind CSS.',
+  title: '入场显现 - Motion Shelf',
+  description: '元素进入视口时触发的动画容器。',
 };
 
 import { InViewBasic } from './in-view-basic';
@@ -10,31 +9,28 @@ import { InViewImagesGrid } from './in-view-images-grid';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 import CodeBlock from '@/components/website/code-block';
 
-# In View
+# 入场显现
 
-Easily animate elements when they come into view. You can apply animations to elements when they enter the viewport, or when they are fully visible.
+元素进入视口时触发的动画容器。
 
-## Examples
+## 示例
 
-### Basic in view
-
+### 基础入场显现
 <ComponentCodePreview
   component={<InViewBasic />}
   filePath='app/docs/in-view/in-view-basic.tsx'
   hasReTrigger
 />
 
-### Basic in view with margin option
-
+### 带边距设置的入场显现
 <ComponentCodePreview
   component={<InViewBasicMultiple />}
   filePath='app/docs/in-view/in-view-basic-multiple.tsx'
   hasReTrigger
 />
 
-### In view with images and margin option
-
-Images are from cosmos - oui are one ::
+### 图片网格入场显现
+示例图片来自 Cosmos：Oui Are One。
 
 <ComponentCodePreview
   component={<InViewImagesGrid />}
@@ -43,13 +39,13 @@ Images are from cosmos - oui are one ::
   hasReTrigger
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -62,11 +58,11 @@ Images are from cosmos - oui are one ::
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/in-view.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -74,7 +70,7 @@ Images are from cosmos - oui are one ::
 
 </Tabs>
 
-## Component API
+## 组件接口
 
 | Prop        | Type                                     | Default                                               | Description                                   |
 | :---------- | :--------------------------------------- | :---------------------------------------------------- | :-------------------------------------------- |

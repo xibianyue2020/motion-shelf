@@ -20,7 +20,7 @@ export function MagneticNested() {
           actionArea='global'
           range={200}
         >
-          <span>Submit</span>
+          <span>提交</span>
         </Magnetic>
       </button>
     </Magnetic>

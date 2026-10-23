@@ -1,41 +1,38 @@
 export const metadata = {
-  title: 'Text Shimmer Wave - Motion-Primitives',
-  description:
-    'Shimmer wave effect on text. Easily adjust the wave effect, spread, duration, and more. Built for React, Next.js, and Tailwind CSS.',
+  title: '波浪文字流光 - Motion Shelf',
+  description: '带有波浪节奏的文字高光动画。',
 };
 
 import ComponentCodePreview from '@/components/website/component-code-preview';
 import { TextShimmerWaveBasic } from './text-shimmer-wave-basic';
 import { TextShimmerWaveColor } from './text-shimmer-wave-color';
 
-# Text Shimmer Wave
+# 波浪文字流光
 
-Shimmer wave effect on text. Easily adjust the wave effect, spread, duration, and more.
+带有波浪节奏的文字高光动画。
 
-## Examples
+## 示例
 
-### Text Shimmer Wave Basic
-
+### 基础波浪文字流光
 <ComponentCodePreview
   component={<TextShimmerWaveBasic />}
   filePath='app/docs/text-shimmer-wave/text-shimmer-wave-basic.tsx'
 />
 
-### Text Shimmer Wave Color
-
-You can use the `[--base-color]` and `[--base-gradient-color]` CSS variables to customize the color of the shimmer effect.
+### 自定义波浪文字流光颜色
+可以通过 `[--base-color]` 和 `[--base-gradient-color]` 这两个 CSS 变量自定义流光颜色。
 
 <ComponentCodePreview
   component={<TextShimmerWaveColor />}
   filePath='app/docs/text-shimmer-wave/text-shimmer-wave-color.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue='cli'>
   <TabsList>
-    <TabsTrigger value='cli'>CLI</TabsTrigger>
-    <TabsTrigger value='manual'>Manual</TabsTrigger>
+    <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+    <TabsTrigger value='manual'>手动安装</TabsTrigger>
   </TabsList>
 
 <TabsContent value='cli'>
@@ -46,17 +43,17 @@ You can use the `[--base-color]` and `[--base-gradient-color]` CSS variables to 
 
   <TabsContent value='manual'>
     <Steps>
-      <Step>Copy and paste the following code into your project.</Step>
+      <Step>复制以下代码并粘贴到你的项目中。</Step>
 
       <CodeBlock filePath='components/core/text-shimmer-wave.tsx' />
 
-      <Step>Update the import paths to match your project setup.</Step>
+      <Step>根据你的项目目录调整导入路径。</Step>
     </Steps>
 
   </TabsContent>
 </Tabs>
 
-## Component API
+## 组件接口
 
 | Prop            | Type       | Default | Description                               |
 | :-------------- | :--------- | :------ | :---------------------------------------- |

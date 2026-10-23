@@ -27,7 +27,7 @@ export function Cursor3() {
             className='h-40 w-40'
           />
         </Cursor>
-        Christian Church, Eastern Europe
+        东欧的基督教堂
       </div>
     </div>
   );

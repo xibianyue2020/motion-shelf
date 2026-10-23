@@ -3,10 +3,10 @@ import { TextLoop } from '@/components/core/text-loop';
 export function TextLoopBasic() {
   return (
     <TextLoop className='font-mono text-sm'>
-      <span>How can I assist you today?</span>
-      <span>Generate a logo</span>
-      <span>Create a component</span>
-      <span>Draw a diagram</span>
+      <span>今天有什么可以帮你？</span>
+      <span>生成标志</span>
+      <span>创建组件</span>
+      <span>绘制图表</span>
     </TextLoop>
   );
 }

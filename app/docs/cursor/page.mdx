@@ -1,7 +1,6 @@
 export const metadata = {
-  title: 'Cursor - Motion-Primitives',
-  description:
-    'A custom cursor component with optional spring animations. It can be globally applied to the page or attached specifically to a parent element. Built for React, Next.js, and Tailwind CSS.',
+  title: '跟随光标 - Motion Shelf',
+  description: '可跟随指针并附着于目标元素的自定义光标。',
 };
 
 import { Cursor1 } from './cursor-1';
@@ -9,40 +8,37 @@ import { Cursor2 } from './cursor-2';
 import { Cursor3 } from './cursor-3';
 import ComponentCodePreview from '@/components/website/component-code-preview';
 
-# Cursor
+# 跟随光标
 
-A custom cursor component with optional spring animations. It can be globally applied to the page or attached specifically to a parent element.
+可跟随指针并附着于目标元素的自定义光标。
 
-## Examples
+## 示例
 
-### Cursor with image and spring
-
+### 图片光标与弹簧动画
 <ComponentCodePreview
   component={<Cursor1 />}
   filePath='app/docs/cursor/cursor-1.tsx'
 />
 
-### Cursor with custom component
-
+### 自定义光标组件
 <ComponentCodePreview
   component={<Cursor2 />}
   filePath='app/docs/cursor/cursor-2.tsx'
 />
 
-### Cursor with image and spring
-
+### 图片光标与弹簧动画
 <ComponentCodePreview
   component={<Cursor3 />}
   filePath='app/docs/cursor/cursor-3.tsx'
 />
 
-## Installation
+## 安装方式
 
 <Tabs defaultValue="cli">
 
 <TabsList>
-  <TabsTrigger value='cli'>CLI</TabsTrigger>
-  <TabsTrigger value='manual'>Manual</TabsTrigger>
+  <TabsTrigger value='cli'>命令行安装</TabsTrigger>
+  <TabsTrigger value='manual'>手动安装</TabsTrigger>
 </TabsList>
 
 <TabsContent value="cli">
@@ -55,11 +51,11 @@ A custom cursor component with optional spring animations. It can be globally ap
 
 <Steps>
 
-<Step>Copy and paste the following code into your project.</Step>
+<Step>复制以下代码并粘贴到你的项目中。</Step>
 
 <CodeBlock filePath='components/core/cursor.tsx' />
 
-<Step>Update the import paths to match your project setup.</Step>
+<Step>根据你的项目目录调整导入路径。</Step>
 
 </Steps>
 
@@ -67,7 +63,7 @@ A custom cursor component with optional spring animations. It can be globally ap
 
 </Tabs>
 
-## Component API
+## 组件接口
 
 | Prop             | Type                                             | Default  | Description                                                                                                   |
 | :--------------- | :----------------------------------------------- | :------- | :------------------------------------------------------------------------------------------------------------ |

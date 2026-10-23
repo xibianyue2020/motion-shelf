@@ -36,10 +36,10 @@ export function MorphingDialogBasicTwo() {
           />
           <div className='flex flex-col items-start justify-center space-y-0'>
             <MorphingDialogTitle className='text-[10px] font-medium text-black sm:text-xs'>
-              What I Talk About When I Talk About Running
+              当我谈跑步时，我谈些什么
             </MorphingDialogTitle>
             <MorphingDialogSubtitle className='text-[10px] text-gray-600 sm:text-xs'>
-              Haruki Murakami
+              村上春树
             </MorphingDialogSubtitle>
           </div>
         </div>
@@ -62,40 +62,20 @@ export function MorphingDialogBasicTwo() {
               </div>
               <div className=''>
                 <MorphingDialogTitle className='text-black'>
-                  What I Talk About When I Talk About Running
+                  当我谈跑步时，我谈些什么
                 </MorphingDialogTitle>
                 <MorphingDialogSubtitle className='font-light text-gray-400'>
-                  Haruki Murakami
+                  村上春树
                 </MorphingDialogSubtitle>
                 <div className='mt-4 text-sm text-gray-700'>
                   <p>
-                    In 1982, having sold his jazz bar to devote himself to
-                    writing, Murakami began running to keep fit. A year later,
-                    he’d completed a solo course from Athens to Marathon, and
-                    now, after dozens of such races, not to mention triathlons
-                    and a dozen critically acclaimed books, he reflects upon the
-                    influence the sport has had on his life and—even more
-                    important—on his writing.
+                    村上春树在投身写作后开始跑步，并逐渐完成长距离赛事与铁人三项。在这段回忆中，他谈到跑步如何影响生活，也如何改变自己的写作。
                   </p>
                   <p>
-                    Equal parts training log, travelogue, and reminiscence, this
-                    revealing memoir covers his four-month preparation for the
-                    2005 New York City Marathon and takes us to places ranging
-                    from Tokyo’s Jingu Gaien gardens, where he once shared the
-                    course with an Olympian, to the Charles River in Boston
-                    among young women who outpace him. Through this marvelous
-                    lens of sport emerges a panorama of memories and insights:
-                    the eureka moment when he decided to become a writer, his
-                    greatest triumphs and disappointments, his passion for
-                    vintage LPs, and the experience, after fifty, of seeing his
-                    race times improve and then fall back.
+                    这段文字交织着训练记录、旅途见闻与人生回顾：从东京到波士顿，从赛道上的相遇到决定成为作家的瞬间，也记录了创作中的得失与岁月带来的变化。
                   </p>
                   <p>
-                    By turns funny and sobering, playful and philosophical, What
-                    I Talk About When I Talk About Running is rich and
-                    revelatory, both for fans of this masterful yet guardedly
-                    private writer and for the exploding population of athletes
-                    who find similar satisfaction in running.
+                    轻松与沉静并存，幽默而富有思考。这本回忆录将跑步的满足感与写作、生活相连。
                   </p>
                 </div>
               </div>

@@ -28,47 +28,47 @@ export const NAVIGATION: NavigationGroup[] = [
     name: '基础组件',
     children: [
       {
-        name: 'Accordion',
+        name: '手风琴',
         href: '/docs/accordion',
       },
       {
-        name: 'Animated Background',
+        name: '动态背景',
         href: '/docs/animated-background',
       },
       {
-        name: 'Animated Group',
+        name: '分组入场动效',
         href: '/docs/animated-group',
       },
       {
-        name: 'Border Trail',
+        name: '边框流光',
         href: '/docs/border-trail',
       },
       {
-        name: 'Carousel',
+        name: '内容轮播',
         href: '/docs/carousel',
       },
       {
-        name: 'Cursor',
+        name: '跟随光标',
         href: '/docs/cursor',
       },
       {
-        name: 'Dialog',
+        name: '弹窗',
         href: '/docs/dialog',
       },
       {
-        name: 'Disclosure',
+        name: '折叠面板',
         href: '/docs/disclosure',
       },
       {
-        name: 'In View',
+        name: '入场显现',
         href: '/docs/in-view',
       },
       {
-        name: 'Infinite Slider',
+        name: '无限轮播',
         href: '/docs/infinite-slider',
       },
       {
-        name: 'Transition Panel',
+        name: '切换面板',
         href: '/docs/transition-panel',
       },
     ],
@@ -77,31 +77,31 @@ export const NAVIGATION: NavigationGroup[] = [
     name: '文字动效',
     children: [
       {
-        name: 'Text Effect',
+        name: '文字入场',
         href: '/docs/text-effect',
       },
       {
-        name: 'Text Loop',
+        name: '文字轮播',
         href: '/docs/text-loop',
       },
       {
-        name: 'Text Morph',
+        name: '文字变形',
         href: '/docs/text-morph',
       },
       {
-        name: 'Text Roll',
+        name: '文字翻滚',
         href: '/docs/text-roll',
       },
       {
-        name: 'Text Scramble',
+        name: '文字扰码',
         href: '/docs/text-scramble',
       },
       {
-        name: 'Text Shimmer',
+        name: '文字流光',
         href: '/docs/text-shimmer',
       },
       {
-        name: 'Text Shimmer Wave',
+        name: '波浪文字流光',
         href: '/docs/text-shimmer-wave',
       },
     ],
@@ -110,11 +110,11 @@ export const NAVIGATION: NavigationGroup[] = [
     name: '数字动效',
     children: [
       {
-        name: 'Animated Number',
+        name: '数字滚动',
         href: '/docs/animated-number',
       },
       {
-        name: 'Sliding Number',
+        name: '数字翻牌',
         href: '/docs/sliding-number',
       },
     ],
@@ -123,31 +123,31 @@ export const NAVIGATION: NavigationGroup[] = [
     name: '交互动效',
     children: [
       {
-        name: 'Dock',
+        name: '放大坞栏',
         href: '/docs/dock',
       },
       {
-        name: 'Glow Effect',
+        name: '动态光晕',
         href: '/docs/glow-effect',
       },
       {
-        name: 'Image Comparison',
+        name: '图片对比',
         href: '/docs/image-comparison',
       },
       {
-        name: 'Scroll Progress',
+        name: '滚动进度',
         href: '/docs/scroll-progress',
       },
       {
-        name: 'Spotlight',
+        name: '聚光灯',
         href: '/docs/spotlight',
       },
       {
-        name: 'Spinning Text',
+        name: '环绕文字',
         href: '/docs/spinning-text',
       },
       {
-        name: 'Tilt',
+        name: '3D 倾斜',
         href: '/docs/tilt',
       },
     ],
@@ -156,11 +156,11 @@ export const NAVIGATION: NavigationGroup[] = [
     name: '工具栏',
     children: [
       {
-        name: 'Toolbar Dynamic',
+        name: '动态工具栏',
         href: '/docs/toolbar-dynamic',
       },
       {
-        name: 'Toolbar Expandable',
+        name: '伸缩工具栏',
         href: '/docs/toolbar-expandable',
       },
     ],
@@ -169,19 +169,19 @@ export const NAVIGATION: NavigationGroup[] = [
     name: '进阶效果',
     children: [
       {
-        name: 'Magnetic',
+        name: '磁吸效果',
         href: '/docs/magnetic',
       },
       {
-        name: 'Morphing Dialog',
+        name: '形变弹窗',
         href: '/docs/morphing-dialog',
       },
       {
-        name: 'Morphing Popover',
+        name: '形变浮层',
         href: '/docs/morphing-popover',
       },
       {
-        name: 'Progressive Blur',
+        name: '渐进模糊',
         href: '/docs/progressive-blur',
       },
     ],

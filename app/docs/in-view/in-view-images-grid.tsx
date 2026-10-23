@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 export function InViewImagesGrid() {
   return (
     <div className='h-full w-full overflow-auto'>
-      <div className='mb-20 py-12 text-center text-sm'>Scroll down</div>
+      <div className='mb-20 py-12 text-center text-sm'>向下滚动</div>
       <div className='flex h-[1200px] items-end justify-center pb-12'>
         <InView
           viewOptions={{ once: true, margin: '0px 0px -250px 0px' }}
