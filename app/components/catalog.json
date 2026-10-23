@@ -1,0 +1,1021 @@
+[
+  {
+    "id": "accordion",
+    "name": "Accordion",
+    "category": "基础组件",
+    "description": "可展开与收起的内容面板，带平滑过渡动画。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "accordion-basic",
+        "sourceFile": "app/docs/accordion/accordion-basic.tsx"
+      },
+      {
+        "id": "accordion-icons",
+        "sourceFile": "app/docs/accordion/accordion-icons.tsx"
+      },
+      {
+        "id": "accordion-variant",
+        "sourceFile": "app/docs/accordion/accordion-variant.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/accordion.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "animated-background",
+    "name": "Animated Background",
+    "category": "基础组件",
+    "description": "在多个选项之间切换时，提供连续流畅的背景动效。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "animated-tabs",
+        "sourceFile": "app/docs/animated-background/animated-tabs.tsx"
+      },
+      {
+        "id": "animated-tabs-hover",
+        "sourceFile": "app/docs/animated-background/animated-tabs-hover.tsx"
+      },
+      {
+        "id": "animated-card-background-hover",
+        "sourceFile": "app/docs/animated-background/animated-card-background-hover.tsx"
+      },
+      {
+        "id": "segmented-control",
+        "sourceFile": "app/docs/animated-background/segmented-control.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/animated-background.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "animated-group",
+    "name": "Animated Group",
+    "category": "基础组件",
+    "description": "为一组子元素编排进入、离开和交错动画。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "animated-group-preset",
+        "sourceFile": "app/docs/animated-group/animated-group-preset.tsx"
+      },
+      {
+        "id": "animated-group-custom-variants",
+        "sourceFile": "app/docs/animated-group/animated-group-custom-variants.tsx"
+      },
+      {
+        "id": "animated-group-custom-variants-2",
+        "sourceFile": "app/docs/animated-group/animated-group-custom-variants-2.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/animated-group.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "border-trail",
+    "name": "Border Trail",
+    "category": "基础组件",
+    "description": "沿容器边框循环移动的光迹效果。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "border-trail-card-1",
+        "sourceFile": "app/docs/border-trail/border-trail-card-1.tsx"
+      },
+      {
+        "id": "border-trail-card-2",
+        "sourceFile": "app/docs/border-trail/border-trail-card-2.tsx"
+      },
+      {
+        "id": "border-trail-textarea",
+        "sourceFile": "app/docs/border-trail/border-trail-textarea.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/border-trail.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "carousel",
+    "name": "Carousel",
+    "category": "基础组件",
+    "description": "支持拖动与惯性滚动的内容轮播组件。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "carousel-basic",
+        "sourceFile": "app/docs/carousel/carousel-basic.tsx"
+      },
+      {
+        "id": "carousel-custom-sizes",
+        "sourceFile": "app/docs/carousel/carousel-custom-sizes.tsx"
+      },
+      {
+        "id": "carousel-spacing",
+        "sourceFile": "app/docs/carousel/carousel-spacing.tsx"
+      },
+      {
+        "id": "carousel-custom-indicator",
+        "sourceFile": "app/docs/carousel/carousel-custom-indicator.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/carousel.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "基础组件",
+    "description": "可跟随指针并附着于目标元素的自定义光标。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "cursor-1",
+        "sourceFile": "app/docs/cursor/cursor-1.tsx"
+      },
+      {
+        "id": "cursor-2",
+        "sourceFile": "app/docs/cursor/cursor-2.tsx"
+      },
+      {
+        "id": "cursor-3",
+        "sourceFile": "app/docs/cursor/cursor-3.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/cursor.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "dialog",
+    "name": "Dialog",
+    "category": "基础组件",
+    "description": "具有共享布局过渡效果的弹窗组件。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "dialog-basic",
+        "sourceFile": "app/docs/dialog/dialog-basic.tsx"
+      },
+      {
+        "id": "dialog-controlled",
+        "sourceFile": "app/docs/dialog/dialog-controlled.tsx"
+      },
+      {
+        "id": "dialog-custom-variants-transtion",
+        "sourceFile": "app/docs/dialog/dialog-custom-variants-transtion.tsx"
+      },
+      {
+        "id": "dialog-custom-exit",
+        "sourceFile": "app/docs/dialog/dialog-custom-exit.tsx"
+      },
+      {
+        "id": "dialog-custom-backdrop",
+        "sourceFile": "app/docs/dialog/dialog-custom-backdrop.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/dialog.tsx",
+      "hooks/usePreventScroll.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "disclosure",
+    "name": "Disclosure",
+    "category": "基础组件",
+    "description": "点击后展开内容的交互卡片。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "disclosure-basic",
+        "sourceFile": "app/docs/disclosure/disclosure-basic.tsx"
+      },
+      {
+        "id": "disclosure-card",
+        "sourceFile": "app/docs/disclosure/disclosure-card.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/disclosure.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "in-view",
+    "name": "In View",
+    "category": "基础组件",
+    "description": "元素进入视口时触发的动画容器。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "in-view-basic",
+        "sourceFile": "app/docs/in-view/in-view-basic.tsx"
+      },
+      {
+        "id": "in-view-basic-multiple",
+        "sourceFile": "app/docs/in-view/in-view-basic-multiple.tsx"
+      },
+      {
+        "id": "in-view-images-grid",
+        "sourceFile": "app/docs/in-view/in-view-images-grid.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/in-view.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "infinite-slider",
+    "name": "Infinite Slider",
+    "category": "基础组件",
+    "description": "连续循环滚动的横向或纵向内容轨道。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "infinite-slider-basic",
+        "sourceFile": "app/docs/infinite-slider/infinite-slider-basic.tsx"
+      },
+      {
+        "id": "infinite-slider-hover-speed",
+        "sourceFile": "app/docs/infinite-slider/infinite-slider-hover-speed.tsx"
+      },
+      {
+        "id": "infinite-slider-vertical",
+        "sourceFile": "app/docs/infinite-slider/infinite-slider-vertical.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/infinite-slider.tsx"
+    ],
+    "dependencies": [
+      "motion",
+      "react-use-measure"
+    ]
+  },
+  {
+    "id": "transition-panel",
+    "name": "Transition Panel",
+    "category": "基础组件",
+    "description": "在多个面板内容之间进行布局与高度过渡。",
+    "tags": [
+      "基础组件",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "transition-panel-tabs",
+        "sourceFile": "app/docs/transition-panel/transition-panel-tabs.tsx"
+      },
+      {
+        "id": "transition-panel-card",
+        "sourceFile": "app/docs/transition-panel/transition-panel-card.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/transition-panel.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "text-effect",
+    "name": "Text Effect",
+    "category": "文字动效",
+    "description": "按字符、单词或行呈现的文本入场动画。",
+    "tags": [
+      "文字动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "text-effect-per-char",
+        "sourceFile": "app/docs/text-effect/text-effect-per-char.tsx"
+      },
+      {
+        "id": "text-effect-per-word",
+        "sourceFile": "app/docs/text-effect/text-effect-per-word.tsx"
+      },
+      {
+        "id": "text-effect-preset",
+        "sourceFile": "app/docs/text-effect/text-effect-preset.tsx"
+      },
+      {
+        "id": "text-effect-variants",
+        "sourceFile": "app/docs/text-effect/text-effect-variants.tsx"
+      },
+      {
+        "id": "text-effect-custom-delay",
+        "sourceFile": "app/docs/text-effect/text-effect-custom-delay.tsx"
+      },
+      {
+        "id": "text-effect-line",
+        "sourceFile": "app/docs/text-effect/text-effect-line.tsx"
+      },
+      {
+        "id": "text-effect-exit",
+        "sourceFile": "app/docs/text-effect/text-effect-exit.tsx"
+      },
+      {
+        "id": "text-effect-speed",
+        "sourceFile": "app/docs/text-effect/text-effect-speed.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/text-effect.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "text-loop",
+    "name": "Text Loop",
+    "category": "文字动效",
+    "description": "循环切换短句并带有平滑文字过渡。",
+    "tags": [
+      "文字动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "text-loop-basic",
+        "sourceFile": "app/docs/text-loop/text-loop-basic.tsx"
+      },
+      {
+        "id": "text-loop-custom-variants-transition",
+        "sourceFile": "app/docs/text-loop/text-loop-custom-variants-transition.tsx"
+      },
+      {
+        "id": "text-loop-on-index",
+        "sourceFile": "app/docs/text-loop/text-loop-on-index.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/text-loop.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "text-morph",
+    "name": "Text Morph",
+    "category": "文字动效",
+    "description": "在不同文本内容之间进行字形变形过渡。",
+    "tags": [
+      "文字动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "text-morph-button",
+        "sourceFile": "app/docs/text-morph/text-morph-button.tsx"
+      },
+      {
+        "id": "text-morph-input",
+        "sourceFile": "app/docs/text-morph/text-morph-input.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/text-morph.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "text-roll",
+    "name": "Text Roll",
+    "category": "文字动效",
+    "description": "以滚动方式逐字或逐段显示文本。",
+    "tags": [
+      "文字动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "text-roll-basic",
+        "sourceFile": "app/docs/text-roll/text-roll-basic.tsx"
+      },
+      {
+        "id": "text-roll-custom-variants",
+        "sourceFile": "app/docs/text-roll/text-roll-custom-variants.tsx"
+      },
+      {
+        "id": "text-roll-custom-transition-delay",
+        "sourceFile": "app/docs/text-roll/text-roll-custom-transition-delay.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/text-roll.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "text-scramble",
+    "name": "Text Scramble",
+    "category": "文字动效",
+    "description": "字符逐步扰动并还原为目标文本。",
+    "tags": [
+      "文字动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "text-scramble-basic",
+        "sourceFile": "app/docs/text-scramble/text-scramble-basic.tsx"
+      },
+      {
+        "id": "text-scramble-custom-trigger",
+        "sourceFile": "app/docs/text-scramble/text-scramble-custom-trigger.tsx"
+      },
+      {
+        "id": "text-scramble-custom-char-duration",
+        "sourceFile": "app/docs/text-scramble/text-scramble-custom-char-duration.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/text-scramble.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "text-shimmer",
+    "name": "Text Shimmer",
+    "category": "文字动效",
+    "description": "沿文字表面扫过的渐变闪光效果。",
+    "tags": [
+      "文字动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "text-shimmer-basic",
+        "sourceFile": "app/docs/text-shimmer/text-shimmer-basic.tsx"
+      },
+      {
+        "id": "text-shimmer-color",
+        "sourceFile": "app/docs/text-shimmer/text-shimmer-color.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/text-shimmer.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "text-shimmer-wave",
+    "name": "Text Shimmer Wave",
+    "category": "文字动效",
+    "description": "带有波浪节奏的文字高光动画。",
+    "tags": [
+      "文字动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "text-shimmer-wave-basic",
+        "sourceFile": "app/docs/text-shimmer-wave/text-shimmer-wave-basic.tsx"
+      },
+      {
+        "id": "text-shimmer-wave-color",
+        "sourceFile": "app/docs/text-shimmer-wave/text-shimmer-wave-color.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/text-shimmer-wave.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "animated-number",
+    "name": "Animated Number",
+    "category": "数字动效",
+    "description": "数字变化时自动滚动并平滑过渡。",
+    "tags": [
+      "数字动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "animated-number-basic",
+        "sourceFile": "app/docs/animated-number/animated-number-basic.tsx"
+      },
+      {
+        "id": "animated-number-counter",
+        "sourceFile": "app/docs/animated-number/animated-number-counter.tsx"
+      },
+      {
+        "id": "animated-number-in-view",
+        "sourceFile": "app/docs/animated-number/animated-number-in-view.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/animated-number.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "sliding-number",
+    "name": "Sliding Number",
+    "category": "数字动效",
+    "description": "数字变化时以滚动方式切换数位。",
+    "tags": [
+      "数字动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "clock",
+        "sourceFile": "app/docs/sliding-number/clock.tsx"
+      },
+      {
+        "id": "sliding-slider",
+        "sourceFile": "app/docs/sliding-number/sliding-slider.tsx"
+      },
+      {
+        "id": "sliding-basic",
+        "sourceFile": "app/docs/sliding-number/sliding-basic.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/sliding-number.tsx"
+    ],
+    "dependencies": [
+      "motion",
+      "react-use-measure"
+    ]
+  },
+  {
+    "id": "dock",
+    "name": "Dock",
+    "category": "交互动效",
+    "description": "指针靠近时放大图标的灵感坞栏。",
+    "tags": [
+      "交互动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "apple-style-dock",
+        "sourceFile": "app/docs/dock/apple-style-dock.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/dock.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "glow-effect",
+    "name": "Glow Effect",
+    "category": "交互动效",
+    "description": "为卡片和界面元素添加柔和的动态光效。",
+    "tags": [
+      "交互动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "glow-effect-card-background",
+        "sourceFile": "app/docs/glow-effect/glow-effect-card-background.tsx"
+      },
+      {
+        "id": "glow-effect-button",
+        "sourceFile": "app/docs/glow-effect/glow-effect-button.tsx"
+      },
+      {
+        "id": "glow-effect-card-mode",
+        "sourceFile": "app/docs/glow-effect/glow-effect-card-mode.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/glow-effect.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "image-comparison",
+    "name": "Image Comparison",
+    "category": "交互动效",
+    "description": "拖动分隔线，对比两张叠加图片。",
+    "tags": [
+      "交互动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "image-comparison-basic",
+        "sourceFile": "app/docs/image-comparison/image-comparison-basic.tsx"
+      },
+      {
+        "id": "image-comparison-hover",
+        "sourceFile": "app/docs/image-comparison/image-comparison-hover.tsx"
+      },
+      {
+        "id": "image-comparison-spring",
+        "sourceFile": "app/docs/image-comparison/image-comparison-spring.tsx"
+      },
+      {
+        "id": "image-comparison-custom-slider",
+        "sourceFile": "app/docs/image-comparison/image-comparison-custom-slider.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/image-comparison.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "scroll-progress",
+    "name": "Scroll Progress",
+    "category": "交互动效",
+    "description": "跟随页面或容器滚动位置变化的进度指示。",
+    "tags": [
+      "交互动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "scroll-progress-basic-1",
+        "sourceFile": "app/docs/scroll-progress/scroll-progress-basic-1.tsx"
+      },
+      {
+        "id": "scroll-progress-basic-2",
+        "sourceFile": "app/docs/scroll-progress/scroll-progress-basic-2.tsx"
+      },
+      {
+        "id": "scroll-progress-basic-3",
+        "sourceFile": "app/docs/scroll-progress/scroll-progress-basic-3.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/scroll-progress.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "spotlight",
+    "name": "Spotlight",
+    "category": "交互动效",
+    "description": "跟随指针移动的聚光照明效果。",
+    "tags": [
+      "交互动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "spotlight-basic",
+        "sourceFile": "app/docs/spotlight/spotlight-basic.tsx"
+      },
+      {
+        "id": "spotlight-custom-color",
+        "sourceFile": "app/docs/spotlight/spotlight-custom-color.tsx"
+      },
+      {
+        "id": "spotlight-border",
+        "sourceFile": "app/docs/spotlight/spotlight-border.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/spotlight.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "spinning-text",
+    "name": "Spinning Text",
+    "category": "交互动效",
+    "description": "沿圆形路径排布并旋转的文本。",
+    "tags": [
+      "交互动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "spinning-text-basic",
+        "sourceFile": "app/docs/spinning-text/spinning-text-basic.tsx"
+      },
+      {
+        "id": "spinning-text-custom-transition",
+        "sourceFile": "app/docs/spinning-text/spinning-text-custom-transition.tsx"
+      },
+      {
+        "id": "spinning-text-custom-variants",
+        "sourceFile": "app/docs/spinning-text/spinning-text-custom-variants.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/spinning-text.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "tilt",
+    "name": "Tilt",
+    "category": "交互动效",
+    "description": "根据指针位置产生透视倾斜与光影反馈。",
+    "tags": [
+      "交互动效",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "tilt-card-1",
+        "sourceFile": "app/docs/tilt/tilt-card-1.tsx"
+      },
+      {
+        "id": "tilt-spotlight",
+        "sourceFile": "app/docs/tilt/tilt-spotlight.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/tilt.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "toolbar-dynamic",
+    "name": "Toolbar Dynamic",
+    "category": "工具栏",
+    "description": "根据选择状态展开操作内容的动态工具栏。",
+    "tags": [
+      "工具栏",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "toolbar-dynamic",
+        "sourceFile": "components/core/toolbar-dynamic.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/toolbar-dynamic.tsx",
+      "hooks/useClickOutside.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "toolbar-expandable",
+    "name": "Toolbar Expandable",
+    "category": "工具栏",
+    "description": "可展开或收起的浮动操作工具栏。",
+    "tags": [
+      "工具栏",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "toolbar-expandable",
+        "sourceFile": "components/core/toolbar-expandable.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/toolbar-expandable.tsx",
+      "hooks/useClickOutside.tsx"
+    ],
+    "dependencies": [
+      "motion",
+      "react-use-measure"
+    ]
+  },
+  {
+    "id": "magnetic",
+    "name": "Magnetic",
+    "category": "进阶效果",
+    "description": "指针靠近时产生磁吸跟随效果的交互元素。",
+    "tags": [
+      "进阶效果",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "magnetic-basic",
+        "sourceFile": "app/docs/magnetic/magnetic-basic.tsx"
+      },
+      {
+        "id": "magnetic-nested",
+        "sourceFile": "app/docs/magnetic/magnetic-nested.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/magnetic.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "morphing-dialog",
+    "name": "Morphing Dialog",
+    "category": "进阶效果",
+    "description": "在触发按钮与弹窗之间自然变形过渡。",
+    "tags": [
+      "进阶效果",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "morphing-dialog-basic-1",
+        "sourceFile": "app/docs/morphing-dialog/morphing-dialog-basic-1.tsx"
+      },
+      {
+        "id": "morphing-dialog-basic-2",
+        "sourceFile": "app/docs/morphing-dialog/morphing-dialog-basic-2.tsx"
+      },
+      {
+        "id": "morphing-dialog-image",
+        "sourceFile": "app/docs/morphing-dialog/morphing-dialog-image.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/morphing-dialog.tsx",
+      "hooks/useClickOutside.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "morphing-popover",
+    "name": "Morphing Popover",
+    "category": "进阶效果",
+    "description": "展开时从触发控件平滑变形的浮层。",
+    "tags": [
+      "进阶效果",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "morphing-popover-basic",
+        "sourceFile": "app/docs/morphing-popover/morphing-popover-basic.tsx"
+      },
+      {
+        "id": "morphing-popover-custom-transition-variants",
+        "sourceFile": "app/docs/morphing-popover/morphing-popover-custom-transition-variants.tsx"
+      },
+      {
+        "id": "morphing-popover-textarea",
+        "sourceFile": "app/docs/morphing-popover/morphing-popover-textarea.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/morphing-popover.tsx",
+      "hooks/useClickOutside.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  },
+  {
+    "id": "progressive-blur",
+    "name": "Progressive Blur",
+    "category": "进阶效果",
+    "description": "按距离渐进增强的图片模糊效果。",
+    "tags": [
+      "进阶效果",
+      "ui",
+      "motion-primitives"
+    ],
+    "demos": [
+      {
+        "id": "progressive-blur-basic",
+        "sourceFile": "app/docs/progressive-blur/progressive-blur-basic.tsx"
+      },
+      {
+        "id": "progressive-blur-hover",
+        "sourceFile": "app/docs/progressive-blur/progressive-blur-hover.tsx"
+      },
+      {
+        "id": "progressive-blur-slider",
+        "sourceFile": "app/docs/progressive-blur/progressive-blur-slider.tsx"
+      }
+    ],
+    "sourceFiles": [
+      "components/core/progressive-blur.tsx"
+    ],
+    "dependencies": [
+      "motion"
+    ]
+  }
+]

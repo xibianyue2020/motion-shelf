@@ -6,7 +6,7 @@
 
 ## 部署
 
-在仓库 Settings → Pages 中选择 `main` 分支、根目录。更新文件并推送到 main 后由 GitHub Pages 自动发布。
+在仓库 Settings → Pages 中将发布来源设为 GitHub Actions。推送到 `main` 后由工作流构建 `out/` 并发布。
 
 ## 本地预览
 
@@ -17,3 +17,17 @@
 参考来自作者官网、Vimeo、YouTube、Remotion 官方作品展及作者公开 X 帖子。视频链接及制作依据保留在每条记录中。制作方式依据作者或投稿者自述，未逐条复现制作流程或完整观看。平台、网络、地区或发布者设置可能影响预览；无法预览时可打开原视频，Vibe Coding 案例还可查看制作说明。
 
 此仓库只包含公开网页及视频清单，不包含本机个人数据库、研究过程文件或插件服务端。
+
+## 动效组件库
+
+组件库包含 Motion Primitives 当前版本的 33 个组件与本地文档中的全部交互预览，提供分类、搜索、源码查看和复制。演示图片使用随仓库发布的原创 SVG 素材。组件源码依照原仓库 MIT 许可使用，版权及许可文本见 `LICENCE.md`。
+
+## 本地开发与构建
+
+```bash
+npm ci
+npm run dev
+npm run build
+```
+
+站点以 `/motion-shelf/` 为基础路径进行静态导出，输出目录为 `out/`。GitHub Actions 会将其上传为 Pages artifact 并部署。旧视频库通过同域页面保留原有 900 条记录、浏览器收藏及最近复制状态。
