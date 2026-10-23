@@ -41,7 +41,11 @@ function NavigationDesktop() {
                     className='space-y-3.5 border-l border-zinc-200 dark:border-zinc-800'
                   >
                     {item.children.map((child) => {
-                      const isActive = pathname === child.href;
+                      const currentPath = pathname.replace(/\/+$/, '');
+                      const childPath = child.href.replace(/\/+$/, '');
+                      const isActive =
+                        currentPath === childPath ||
+                        currentPath.endsWith(childPath);
 
                       return (
                         <li key={child.href} ref={isActive ? activeRef : null}>
